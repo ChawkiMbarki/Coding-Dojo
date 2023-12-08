@@ -67,4 +67,3 @@ Please note that most of the tags in the code below have not been discussed yet.
     </body>
 </html>
 ```
-<b>When you've turned in your solution, navigate over to your "assignment checklist" tab to check out the green check mark - you're one assignment closer to graduation!</b>
