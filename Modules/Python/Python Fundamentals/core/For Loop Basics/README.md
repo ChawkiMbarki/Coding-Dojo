@@ -28,5 +28,5 @@ Add odd integers from 0 to 500,000 and print the final sum.
 ### 5. Countdown by Fours 
 Print positive numbers starting at2018,counting down by fours.
 
-###6.Flexible Counter
+### 6.Flexible Counter
 Set three variables: lowNum highNum mult Starting at lowNum and going through highNum print onlythe integersthat are a multipleof mult For example iflowNum=2 highNum=9andmult=3theloopshouldprint369(onsuccessive lines)
