@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <main class="flex">
+    <form action="#" class="flex column">
+      <h1>Registration Form</h1>
+      <div class="identity flex column">
+        <div class="importantInfo">
+          <label for="firstName">First Name:* </label>
+          <input type="text" id="firstName" required>
+        </div>
+        <div class="importantInfo">
+          <label for="lastName">Last Name:* </label>
+          <input type="text" id="lastName" required>
+        </div>
+        <div class="importantInfo">
+          <label for="email">Email Address:* </label>
+          <input type="email" id="email" required>
+        </div>
+        <div class="importantInfo">
+          <label for="pass">Password:* </label>
+          <input type="password" id="pass" required>
+        </div>
+        <div class="importantInfo">
+          <label for="confPass">Confirm Password:* </label>
+          <input type="password" id="confPass" required>
+        </div>
+        <div class="importantInfo">
+          <label for="birthday">Birthday: </label>
+          <input type="date" id="birthday">
+        </div>
+      </div>
+
+      <div class="moreInfo flex column">
+        <div class="info">
+          <p>Gender Identity</p>
+          <input type="radio" name="gender" id="male"><label for="male">Male</label>
+          <input type="radio" name="gender" id="female"><label for="female">Female</label>
+        </div>
+        <div class="info flex column" id="description">
+          <label for="description">A short description about myself</label>
+          <textarea id="description" cols="30" rows="3"></textarea>
+        </div>
+        <div class="info flex column">
+          <label for="favLang">Favorite Language</label>
+          <select id="favLang">
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="JS">JavaScript</option>
+            <option value="PHP">PHP</option>
+            <option value="C#">C#</option>
+            <option value="C++">C++</option>
+          </select>
+        </div>
+        <div class="info flex column confirmation">
+          <label for="confirmation">Yes, I would like to receive periodic email
+            updates</label>
+          <input type="checkbox" id="confirmation">
+        </div>
+        <button type="submit" id="submit">Create Account </button>
+        <p>(*) Indicates a required field</p>
+      </div>
+    </form>
+
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>
