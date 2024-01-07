@@ -27,6 +27,23 @@ class BankAccount:
         for account in cls.accounts:
             account.display_account_info()
 
+class User:
+    def __init__(self, name, email):
+        self.name = name
+        self.email = email
+        self.account = BankAccount(0.02)
+    
+    # other methods
+    
+    def make_deposit(self, amount):
+        self.account.deposit(amount)
+
+    def make_withdrawal(self, amount):
+        self.account.withdraw(amount)
+
+    def display_user_balance(self):
+    	self.display_user_balance()
+
 chawki = BankAccount()
 daniel = BankAccount()
 
