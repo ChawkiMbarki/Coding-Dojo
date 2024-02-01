@@ -1,0 +1,19 @@
+insert into dojos (name, created_at, updated_at) values ("dojo1", NOW(), NOW()), ("dojo2", NOW(), NOW()), ("dojo3", NOW(), NOW());
+
+delete from dojos where id < 4; #( I added a condition because the "safe update" mode is activated )
+
+insert into dojos (name, created_at, updated_at) values ("dojo1", NOW(), NOW()), ("dojo2", NOW(), NOW()), ("dojo3", NOW(), NOW());
+
+insert into ninjas values (1, "a", "b", NOW(), NOW(), 16),(2, "c", "d", NOW(), NOW(), 16),(3, "e", "f", NOW(), NOW(), 16);
+insert into ninjas values (4, "aa", "bb", NOW(), NOW(), 17),(5, "cc", "dd", NOW(), NOW(), 17),(6, "ee", "ff", NOW(), NOW(), 17);
+insert into ninjas values (7, "aaa", "bbb", NOW(), NOW(), 18),(8, "ccc", "ddd", NOW(), NOW(), 18),(9, "eee", "fff", NOW(), NOW(), 18);
+
+
+select * from ninjas where dojo_id = (select id from dojos order by id limit 1);
+select * from ninjas where dojo_id = (select id from dojos order by id desc limit 1);
+
+select * from dojos where dojos.id = (select dojo_id from ninjas order by id desc limit 1);
+
+select ninjas.*, dojos.* from ninjas join dojos on ninjas.dojo_id = dojos.id where ninjas.id = 6;
+
+select ninjas.*, dojos.* from ninjas join dojos on ninjas.dojo_id = dojos.id;
