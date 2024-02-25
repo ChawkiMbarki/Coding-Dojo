@@ -1,0 +1,27 @@
+form, .result {
+    max-width: 80vw;
+}
+
+input, select, textarea {
+    width: 100%;
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+}
+
+.data {
+    display: flex;
+    justify-content: center;
+}
+
+.btn:hover {
+    background-color: rgba(0, 0, 0, 0.329);
+    color: white;
+    border-color:transparent;
+}
+
+textarea {
+    resize: none;
+}
