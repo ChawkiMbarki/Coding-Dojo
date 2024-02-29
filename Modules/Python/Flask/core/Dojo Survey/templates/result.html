@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ user.name }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body class="container p-3">
+    <div class="result bg-dark p-5">
+        <h1 class="text-primary">{{ user['name'] }}</h1>
+        <div class="data row">
+            <p class="col-3 text-light m-3">Dojo location :</p>
+            <div class="col-3 m-3">
+                <h3 class="text-warning">{{ user['dojo_location'] }}</h3>
+            </div>
+        </div>
+        <div class="data row">
+            <p class="col-3 text-light m-3">Favorite Language:</p>
+            <div class="col-3 m-3">
+                <h3 class="text-warning">{{ user['fav_lang'] }}</h3>
+            </div>
+        </div>
+        <div class="data row">
+            <label class="col-3 text-light m-3" for="cmnt">Comments:</label>
+            <div class="col-3 m-3">
+                <h3 class="text-warning">{{ user['comment'] }}</h3>
+            </div>
+        </div>
+        <form class="data data3 row" action="/log_out">
+            <button class="btn btn-warning" type="submit">Log Out</button>
+        </form>
+    </div>
+</body>
+
+</html>

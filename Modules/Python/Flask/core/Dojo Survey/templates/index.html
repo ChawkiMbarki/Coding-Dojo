@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>Dojo Survey</title>
+</head>
+
+<body class="container p-3">
+    <form action="/process" method="post" class="bg-dark p-5">
+        <h1 class="text-warning">Dojo Survey</h1>
+        <div class="data row">
+            <label class="col-3 text-light m-3" for="name">Your Name :</label>
+            <div class="col-3 m-3">
+                <input placeholder="Your Name Here" type="text" name="name" id="name">
+            </div>
+        </div>
+        <div class="data row">
+            <label class="col-3 text-light m-3" for="dojo_location">Dojo location :</label>
+            <div class="col-3 m-3">
+                <select name="dojo_location" id="dojo_location">
+                    <option value="tunis">Tunis</option>
+                    <option value="san_jose">San Jose</option>
+                    <option value="abla">abla</option>
+                </select>
+            </div>
+        </div>
+        <div class="data row">
+            <label class="col-3 text-light m-3" for="fav_lang">Favorite Language:</label>
+            <div class="col-3 m-3">
+                <select name="fav_lang" id="fav_lang">
+                    <option value="html">HTML</option>
+                    <option value="html">CSS</option>
+                    <option value="html">JS</option>
+                    <option value="html">Python</option>
+                </select>
+            </div>
+        </div>
+        <div class="data row">
+            <label class="col-3 text-light m-3" for="cmnt">Comments:</label>
+            <div class="col-3 m-3">
+                <textarea placeholder="Your Comments Here" name="cmnt" id="cmnt" rows="5"></textarea>
+            </div>
+        </div>
+        <div class="data data3 row">
+            <button class="btn btn-warning" type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+
+</html>
