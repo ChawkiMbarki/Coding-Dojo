@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>test</title>
+</head>
+
+<body class="container p-5">
+    <h1>Friends</h1>
+    <div class="row">
+        <div class="col border text-dark"><b>ID</b></div>
+        <div class="col border text-dark"><b>First name</b></div>
+        <div class="col border text-dark"><b>Last name</b></div>
+        <div class="col border text-dark"><b>Occupation</b></div>
+    </div>
+    {% for friend in friends %}
+        <div class="row">
+            <div class="col border">{{ friend.id }}</div>
+            <div class="col border">{{ friend.first_name }}</div>
+            <div class="col border">{{ friend.last_name }}</div>
+            <div class="col border">{{ friend.occupation }}</div>
+        </div>
+    {% endfor %}
+</body>
+
+</html>
