@@ -1,0 +1,1 @@
+# This project is neither Core nor practice assaignment I just made it for FUN
