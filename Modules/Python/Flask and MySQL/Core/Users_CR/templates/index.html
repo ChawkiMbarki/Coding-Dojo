@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+    <title>Users</title>
+</head>
+
+<body class="container">
+    <h1 class="text-center">All Users</h1>
+    <div class="container">
+        <div class="row border">
+            <div class="col-1 border"><b>ID</b></div>
+            <div class="col border"><b>Full Name</b></div>
+            <div class="col border"><b>Email</b></div>
+            <div class="col border"><b>Created At</b></div>
+        </div>
+        {% for user in users %}
+            <div class="row border">
+                <div class="col-1 border">{{ user.id }}</div>
+                <div class="col border">{{ user.fname + " " + user.lname }}</div>
+                <div class="col border">{{ user.email }}</div>
+                <div class="col border">{{ user.created_at }}</div>
+            </div>
+        {% endfor %}
+    </div>
+    <a href="/add_user" class="text-primary"><b>Add a New User</b></a>
+</body>
+
+</html>
