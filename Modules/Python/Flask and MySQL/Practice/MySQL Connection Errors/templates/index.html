@@ -10,7 +10,25 @@
 </head>
 
 <body class="container p-5">
-    <h1>Friends</h1>
+    <h1 class="text-center">Add a friend</h1>
+    <form action="/create_friend" method="POST" class=".container">
+        <div class="row">
+            <label class="col-sm-3 offset-sm-3 p-1" for="fname">First Name:</label>
+            <input class="col-sm-3 m-1" type="text" name="fname">
+        </div>
+        <div class="row">
+            <label class="col-sm-3 offset-sm-3 p-1" for="lname">Last Name:</label>
+            <input class="col-sm-3 m-1" type="text" name="lname">
+        </div>
+        <div class="row">
+            <label class="col-sm-3 offset-sm-3 p-1" for="occ" >Occupation:</label>
+            <input class="col-sm-3 m-1" type="text" name="occ">
+        </div>
+        <div class="row">
+            <input class="col-sm-3 offset-sm-5 mt-5 mb-5 btn btn-dark" type="submit" value="Add Friend">
+        </div>
+    </form> 
+    <h1 class="text-center pb-1">Show Friends</h1>
     <div class="row">
         <div class="col border text-dark"><b>ID</b></div>
         <div class="col border text-dark"><b>First name</b></div>
