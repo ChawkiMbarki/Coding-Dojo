@@ -32,7 +32,18 @@ class Friend:
     
     @classmethod
     def update(cls,data):
-        query = """UPDATE friends 
+        query = """
+                UPDATE friends 
                 SET first_name=%(fname)s,last_name=%(lname)s, occupation=%(occ)s 
-                WHERE id = %(id)s;"""
+                WHERE id = %(id)s;
+        """
         return connectToMySQL(cls.DB).query_db(query,data)
+    
+    @classmethod
+    def delete(cls, id):
+        query = """
+            DELETE FROM friends
+            WHERE id = %(id)s;
+        """
+        data = {"id": id}
+        return connectToMySQL(cls.DB).query_db(query, data)
