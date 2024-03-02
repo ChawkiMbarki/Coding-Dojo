@@ -30,19 +30,23 @@
     </form> 
     <h1 class="text-center pb-1">Show Friends</h1>
     <div class="row">
-        <div class="col border text-dark"><b>ID</b></div>
+        <div class="col-1 border text-dark"><b>ID</b></div>
         <div class="col border text-dark"><b>First name</b></div>
         <div class="col border text-dark"><b>Last name</b></div>
         <div class="col border text-dark"><b>Occupation</b></div>
+        <div class="col-2 border text-dark bg-light"></div>
     </div>
     {% for friend in friends %}
-        <div class="row">
-            <div class="col border">{{ friend.id }}</div>
-            <div class="col border">{{ friend.first_name }}</div>
-            <div class="col border">{{ friend.last_name }}</div>
-            <div class="col border">{{ friend.occupation }}</div>
-        </div>
+        <form action="/update" method="post" class="row">
+            
+            <div class="col-1 border"><input name="id" type="number" value="{{ friend.id }}" style="border: none; max-width: 100%; cursor: not-allowed;"></div>
+            <div class="col border"><input name="fname" type="text" value="{{ friend.first_name }}" style="border: none;"></div>
+            <div class="col border"><input name="lname" type="text" value="{{ friend.last_name }}" style="border: none;"></div>
+            <div class="col border"><input name="occ" type="text" value="{{ friend.occupation }}" style="border: none;"></div>
+            <input class="text-primary col-2 border" type="submit" value="update" style="border: none; background-color: transparent;">
+        </form>
     {% endfor %}
+    <p class="text-center text-danger">Note: Click on the column you want to change and change it's value to whatever you want then click update to update to the same value on the database</p>
 </body>
 
 </html>
