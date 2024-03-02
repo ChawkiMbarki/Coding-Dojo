@@ -23,6 +23,10 @@ def update():
     Friend.update(request.form)
     return redirect('/')
 
+@app.route("/delete/<int:id>")
+def delete(id):
+    Friend.delete(id)
+    return redirect("/")
 
 if __name__ == "__main__":
     app.run(debug=True)

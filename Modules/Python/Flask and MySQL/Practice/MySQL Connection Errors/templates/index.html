@@ -43,10 +43,14 @@
             <div class="col border"><input name="fname" type="text" value="{{ friend.first_name }}" style="border: none;"></div>
             <div class="col border"><input name="lname" type="text" value="{{ friend.last_name }}" style="border: none;"></div>
             <div class="col border"><input name="occ" type="text" value="{{ friend.occupation }}" style="border: none;"></div>
-            <input class="text-primary col-2 border" type="submit" value="update" style="border: none; background-color: transparent;">
+            <div class="col-2 border">
+                <input class="text-primary" type="submit" value="Update" style="border: none; background-color: transparent;">
+                <span>/</span>
+                <a href="/delete/{{ friend.id }}" class="text-danger" style="border: none; background-color: transparent; text-decoration: none;">Delete</a>
+            </div>
         </form>
     {% endfor %}
-    <p class="text-center text-danger">Note: Click on the column you want to change and change it's value to whatever you want then click update to update to the same value on the database</p>
+    <p class="text-center alert alert-dark m-3">Note: Click on the column you want to change and change it's value to whatever you want then click update to update to the same value on the database</p>
 </body>
 
 </html>
