@@ -1,31 +1,31 @@
 from flask import Flask, render_template, request, redirect, url_for
-# import the class from friend.py
-from friend import Friend
+# import the class from User.py
+from user import User
 app = Flask(__name__)
 @app.route("/")
 def index():
-    # call the get all classmethod to get all friends
-    friends = Friend.get_all()
-    return render_template("index.html", friends = friends)
+    # call the get all classmethod to get all users
+    users = User.get_all()
+    return render_template("index.html", users = users)
 
-@app.route("/create_friend", methods = ["POST"])
-def create_friend():
+@app.route("/create_user", methods = ["POST"])
+def create_user():
     data = {
         'fname': request.form["fname"],
         'lname': request.form["lname"],
         'occ': request.form["occ"]
     }
-    Friend.save(data)
+    User.save(data)
     return redirect("/")
 
 @app.route('/update',methods=['POST'])
 def update():
-    Friend.update(request.form)
+    User.update(request.form)
     return redirect('/')
 
 @app.route("/delete/<int:id>")
 def delete(id):
-    Friend.delete(id)
+    User.delete(id)
     return redirect("/")
 
 if __name__ == "__main__":

@@ -10,8 +10,8 @@
 </head>
 
 <body class="container p-5">
-    <h1 class="text-center">Add a friend</h1>
-    <form action="/create_friend" method="POST" class=".container">
+    <h1 class="text-center">Add a user</h1>
+    <form action="/create_user" method="POST" class=".container">
         <div class="row">
             <label class="col-sm-3 offset-sm-3 p-1" for="fname">First Name:</label>
             <input class="col-sm-3 m-1" type="text" name="fname">
@@ -25,10 +25,10 @@
             <input class="col-sm-3 m-1" type="text" name="occ">
         </div>
         <div class="row">
-            <input class="col-sm-3 offset-sm-5 mt-5 mb-5 btn btn-dark" type="submit" value="Add Friend">
+            <input class="col-sm-3 offset-sm-5 mt-5 mb-5 btn btn-dark" type="submit" value="Add User">
         </div>
     </form> 
-    <h1 class="text-center pb-1">Show Friends</h1>
+    <h1 class="text-center pb-1">Show Users</h1>
     <div class="row">
         <div class="col-1 border text-dark"><b>ID</b></div>
         <div class="col border text-dark"><b>First name</b></div>
@@ -36,17 +36,18 @@
         <div class="col border text-dark"><b>Occupation</b></div>
         <div class="col-2 border text-dark bg-light"></div>
     </div>
-    {% for friend in friends %}
-        <form action="/update" method="post" class="row">
+    {% for user in users %}
+        <form id="form-{{ user.id }}" action="/update" method="post" class="row">
             
-            <div class="col-1 border"><input name="id" type="number" value="{{ friend.id }}" style="border: none; max-width: 100%; cursor: not-allowed;"></div>
-            <div class="col border"><input name="fname" type="text" value="{{ friend.first_name }}" style="border: none;"></div>
-            <div class="col border"><input name="lname" type="text" value="{{ friend.last_name }}" style="border: none;"></div>
-            <div class="col border"><input name="occ" type="text" value="{{ friend.occupation }}" style="border: none;"></div>
+            <input type="hidden" name="id" type="text" value="{{ user.id }}">
+            <div class="col-1 border"><input disabled type="text" value="{{ user.id }}" style="border: none; max-width: 100%; cursor: not-allowed;"></div>
+            <div class="col border"><input name="fname" type="text" value="{{ user.first_name }}" style="border: none;"></div>
+            <div class="col border"><input name="lname" type="text" value="{{ user.last_name }}" style="border: none;"></div>
+            <div class="col border"><input name="occ" type="text" value="{{ user.occupation }}" style="border: none;"></div>
             <div class="col-2 border">
                 <input class="text-primary" type="submit" value="Update" style="border: none; background-color: transparent;">
                 <span>/</span>
-                <a href="/delete/{{ friend.id }}" class="text-danger" style="border: none; background-color: transparent; text-decoration: none;">Delete</a>
+                <a href="/delete/{{ user.id }}" class="text-danger" style="border: none; background-color: transparent; text-decoration: none;">Delete</a>
             </div>
         </form>
     {% endfor %}
