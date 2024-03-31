@@ -21,38 +21,38 @@
         <div class="row">
             <div class="col-2"><label for="id"><b>ID : </b></label></div>
             <div class="col-3"><input disabled type="text" value="{{ user.id }}"
-                    style="border: none; cursor: not-allowed;"><br></div>
+                    style="border: none; cursor: not-allowed;"></div>
         </div>
 
         <div class="row">
             <div class="col-2"><label style=" cursor: pointer;" for="fname"><b>First Name : </b></label></div>
             <div class="col-3"><input id="fname" name="fname" type="text"
-                    value="{{ user.first_name }}" style="border: none;"><br></div>
+                    value="{{ user.first_name }}" style="border: none;"></div>
         </div>
 
         <div class="row">
             <div class="col-2"><label style=" cursor: pointer;" for="lname"><b>Last Name : </b></label></div>
             <div class="col-3"><input id="lname" name="lname" type="text"
-                    value="{{ user.last_name }}" style="border: none;"><br></div>
+                    value="{{ user.last_name }}" style="border: none;"></div>
         </div>
 
         <div class="row">
             <div class="col-2"><label style=" cursor: pointer;" for="email"><b>Email : </b></label></div>
             <div class="col-3"><input id="email" name="email" type="text" value="{{ user.email }}"
-                    style="border: none; width: 100%;"><br></div>
+                    style="border: none; width: 100%;"></div>
         </div>
 
         <div class="row">
             <div class="col-2"><label for="created_at"><b>Created At : </b></label></div>
             <div class="col-3"> <input id="created_at" disabled name="created_at" type="text"
-                    value="{{ user.created_at }}" style="border: none; cursor: not-allowed;"><br></div>
+                    value="{{ user.created_at }}" style="border: none; cursor: not-allowed;"></div>
         </div>
 
         <div class="row">
             <div class="col-2"><label for="updated_at"><b>Updated At : </b></label></div>
             <div class="col-3"> <input id="updated_at" disabled name="updated_at" type="text"
-                    value="{{ user.updated_at }}" style="border: none; cursor: not-allowed;"><br></div>
-        </div>
+                    value="{{ user.updated_at }}" style="border: none; cursor: not-allowed;"></div>
+        </div><br>
 
         <b>
             <input class="text-primary" type="submit" value="Update"
@@ -61,7 +61,6 @@
             <a href="/delete/{{ user.id }}" class="text-danger"
                 style="border: none; background-color: transparent; text-decoration: none;">Delete</a>
         </b>
-
     </form>
 </body>
 
