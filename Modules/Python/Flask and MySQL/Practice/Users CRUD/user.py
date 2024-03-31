@@ -2,7 +2,7 @@
 from mysqlconnection import connectToMySQL
 # model the class after the user table from our database
 class User:
-    DB = "first_flask"
+    DB = "users_crud"
     def __init__(self, data):
         self.id = data['id']
         self.first_name = data['first_name']
