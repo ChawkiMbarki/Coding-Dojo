@@ -8,15 +8,21 @@ def index():
     users = User.get_all()
     return render_template("index.html", users = users)
 
+@app.route("/show/<int:id>")
+def show_user(id):
+    data = {'id': id}
+    user = User.get_user(data)
+    return render_template("user.html", user = user)
+
 @app.route("/create_user", methods = ["POST"])
 def create_user():
     data = {
         'fname': request.form["fname"],
         'lname': request.form["lname"],
-        'occ': request.form["occ"]
+        'email': request.form["email"]
     }
-    User.save(data)
-    return redirect("/")
+
+    return redirect(url_for('show_user', id = User.save(data)))
 
 @app.route('/update',methods=['POST'])
 def update():
