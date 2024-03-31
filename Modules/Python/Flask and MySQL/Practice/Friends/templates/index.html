@@ -39,7 +39,8 @@
     {% for friend in friends %}
         <form action="/update" method="post" class="row">
             
-            <div class="col-1 border"><input name="id" type="number" value="{{ friend.id }}" style="border: none; max-width: 100%; cursor: not-allowed;"></div>
+            <input type="hidden" name="id" type="text" value="{{ friend.id }}">
+            <div class="col-1 border"><input disabled type="text" value="{{ friend.id }}" style="border: none; max-width: 100%; cursor: not-allowed;"></div>
             <div class="col border"><input name="fname" type="text" value="{{ friend.first_name }}" style="border: none;"></div>
             <div class="col border"><input name="lname" type="text" value="{{ friend.last_name }}" style="border: none;"></div>
             <div class="col border"><input name="occ" type="text" value="{{ friend.occupation }}" style="border: none;"></div>
