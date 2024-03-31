@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ user.first_name }} {{ user.last_name }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body class="container p-5">
+    <header style="display: flex; justify-content: space-between; align-items: center;">
+        <h1>{{ user.first_name }} {{ user.last_name }}</h1>
+        <a href="/" class="text-primary" style="font-weight: bold; text-decoration: none;">Home</a>
+    </header>
+    <form id="form-{{ user.id }}" action="/update" method="post" class="border p-5">
+
+        <input type="hidden" name="id" type="text" value="{{ user.id }}">
+
+        <div class="row">
+            <div class="col-2"><label for="id"><b>ID : </b></label></div>
+            <div class="col-3"><input disabled type="text" value="{{ user.id }}"
+                    style="border: none; cursor: not-allowed;"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-2"><label style=" cursor: pointer;" for="fname"><b>First Name : </b></label></div>
+            <div class="col-3"><input id="fname" name="fname" type="text"
+                    value="{{ user.first_name }}" style="border: none;"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-2"><label style=" cursor: pointer;" for="lname"><b>Last Name : </b></label></div>
+            <div class="col-3"><input id="lname" name="lname" type="text"
+                    value="{{ user.last_name }}" style="border: none;"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-2"><label style=" cursor: pointer;" for="email"><b>Email : </b></label></div>
+            <div class="col-3"><input id="email" name="email" type="text" value="{{ user.email }}"
+                    style="border: none; width: 100%;"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-2"><label for="created_at"><b>Created At : </b></label></div>
+            <div class="col-3"> <input id="created_at" disabled name="created_at" type="text"
+                    value="{{ user.created_at }}" style="border: none; cursor: not-allowed;"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-2"><label for="updated_at"><b>Updated At : </b></label></div>
+            <div class="col-3"> <input id="updated_at" disabled name="updated_at" type="text"
+                    value="{{ user.updated_at }}" style="border: none; cursor: not-allowed;"></div>
+        </div><br>
+
+        <b>
+            <input class="text-primary" type="submit" value="Update"
+                style="border: none; background-color: transparent; font-weight: bold;">
+            <span>/</span>
+            <a href="/delete/{{ user.id }}" class="text-danger"
+                style="border: none; background-color: transparent; text-decoration: none;">Delete</a>
+        </b>
+    </form>
+    <p class="text-center alert alert-dark m-3">Note: Click on the value you want to change, change it to whatever you want then click update to send it to the database</p>
+</body>
+
+</html>
