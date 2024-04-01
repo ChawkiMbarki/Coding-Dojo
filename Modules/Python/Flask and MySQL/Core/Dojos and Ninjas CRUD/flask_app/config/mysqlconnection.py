@@ -40,5 +40,6 @@ class MySQLConnection:
                 # close the connection
                 self.connection.close() 
 # connectToMySQL receives the database we're using and uses it to create an instance of MySQLConnection
-def connectToMySQL(db):
+def connectToMySQL():
+    db = "dojosandninjas"
     return MySQLConnection(db)
