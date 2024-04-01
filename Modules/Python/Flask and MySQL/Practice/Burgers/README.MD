@@ -1,1 +1,2 @@
-<a href="https://login.codingdojo.africa/m/506/12464/87426"><h1>Models... Views... Controllers... Oh My!!!</h1></a>
+<h1>Assignment 1: <a href="https://login.codingdojo.africa/m/506/12464/87426">Models... Views... Controllers... Oh My!!!</a></h1>
+<h1>Assignment 2: <a href="https://login.codingdojo.africa/m/506/12464/87432">Relationships One to Many</a></h1>
