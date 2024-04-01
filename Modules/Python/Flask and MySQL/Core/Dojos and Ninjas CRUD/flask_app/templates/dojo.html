@@ -1,12 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dojo</title>
-  <link rel="stylesheet" href="{{url_for('static', filename='bootstrap.min.css')}}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
 </head>
-<body>
-  
+
+<body class="container p-5">
+  <div class="container p-4 bg-dark" style="border-radius: 13px">
+    <div class="row">
+      <div class="col-md-6">
+        <h2 class="text-danger mb-4">{{ dojo }}</h2>
+        <table class="table table-dark table-hover table-striped">
+          <thead>
+            <tr>
+              <th scope="col">First Name</th>
+              <th scope="col">Last Name</th>
+              <th scope="col">Age</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>test1</td>
+              <td>test2</td>
+              <td>test3</td>
+            </tr>
+            <tr>
+              <td>test1</td>
+              <td>test2</td>
+              <td>test3</td>
+            </tr>
+            <tr>
+              <td>test1</td>
+              <td>test2</td>
+              <td>test3</td>
+            </tr>
+          </tbody>
+        </table>
+        <a href="/" style="text-decoration: none;"><b>Home</b></a>
+      </div>
+    </div>
+  </div>
 </body>
+
 </html>

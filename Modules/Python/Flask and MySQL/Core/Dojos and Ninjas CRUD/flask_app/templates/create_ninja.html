@@ -1,48 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>New Ninja</title>
-  <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}" />
 </head>
-<body>
-  <body class="container p-5">
-    <div class="container p-4 bg-dark" style="border-radius: 13px;">
-      <div class="row">
-        <div class="col-md-6">
-            <h2 class="text-success mb-4">New Ninja</h2>
-            <form action="/" class="container">
-              <div class="row mb-3">
-                <label for="first_name" class="text-light col-3">First Name: </label>
-                <select name="dojo" id="dojo" class="col-6">
-                  <option value="test">test</option>
-                  <option value="test1">test1</option>
-                  <option value="test2">test2</option>
-                </select>
-              </div>
 
-              <div class="row mb-3">
-                <label for="first_name" class="text-light col-3">First Name: </label>
-                <input placeholder="First Name" type="text" id="first_name" class="first_name col-6">
-              </div>
-
-              <div class="row mb-3">
-                <label for="last_name" class="text-light col-3">Last Name: </label>
-                <input placeholder="Last Name" type="text" id="last_name" class="last_name col-6">
-              </div>
-
-              <div class="row mb-3">
-                <label for="age" class="text-light col-3">Age: </label>
-                <input placeholder="Age" type="number" id="age" class="age col-6">
-              </div>
-
-              <input type="submit" value="Create" class="form-control">
-            </form>
+<body class="container p-5">
+  <div class="container p-4 bg-dark" style="border-radius: 13px">
+    <div class="row">
+      <div class="col-md-6">
+        <h2 class="text-success mb-4">New Ninja</h2>
+        <form action="/" class="container">
+          <div class="row mb-3">
+            <label for="first_name" class="text-light col-3">First Name:
+            </label>
+            <select name="dojo" id="dojo" class="col-6">
+              <option value="test">test</option>
+              <option value="test1">test1</option>
+              <option value="test2">test2</option>
+            </select>
           </div>
+
+          <div class="row mb-3">
+            <label for="first_name" class="text-light col-3">First Name:
+            </label>
+            <input placeholder="First Name" type="text" id="first_name" class="first_name col-6" />
+          </div>
+
+          <div class="row mb-3">
+            <label for="last_name" class="text-light col-3">Last Name:
+            </label>
+            <input placeholder="Last Name" type="text" id="last_name" class="last_name col-6" />
+          </div>
+
+          <div class="row mb-3">
+            <label for="age" class="text-light col-3">Age: </label>
+            <input placeholder="Age" type="number" id="age" class="age col-6" />
+          </div>
+
+          <input type="submit" value="Create" class="form-control mb-3" />
+          <a href="/" style="text-decoration: none;"><b>Home</b></a>
+        </form>
       </div>
+    </div>
   </div>
-    
-  </body>
 </body>
+
 </html>
