@@ -12,17 +12,17 @@ class Restaurant:
     @classmethod
     def save (cls, data ):
         query = "INSERT INTO restaurants (name, created_at, updated_at) VALUES (%(name)s, NOW(), NOW());"
-        return connectToMySQL('login_reg').query_db( query, data)
+        return connectToMySQL('burgersdb').query_db( query, data)
     
     @classmethod
     def get (cls, data ):
         query = "SELECT * FROM restaurants WHERE id = %(id)s;"
-        return connectToMySQL('login_reg').query_db( query, data)[0]
+        return connectToMySQL('burgersdb').query_db( query, data)[0]
     
     @classmethod
     def get_all (cls ):
         query = "SELECT * FROM restaurants;"
-        result = connectToMySQL('login_reg').query_db( query)
+        result = connectToMySQL('burgersdb').query_db( query)
         restaurants = []
         for i in result:
             print(i)
