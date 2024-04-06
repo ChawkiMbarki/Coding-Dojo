@@ -11,15 +11,10 @@ def index():
 
 @app.route('/create',methods=['POST'])
 def create():
-    data = {
-        "name":request.form['name'],
-        "bun": request.form['bun'],
-        "meat": request.form['meat'],
-        "calories": request.form['calories'],
-        "restaurant_id": request.form['restaurant_id']
-    }
-    Burger.save(data)
-    return redirect('/burgers')
+    if not Burger.validate_burger(request.form):
+        return redirect('/')
+    Burger.save(request.form)
+    return redirect("/burgers")
 
 @app.route('/burgers')
 def burgers():

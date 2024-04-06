@@ -1,4 +1,5 @@
 from flask_app.config.mysqlconnection import connectToMySQL
+from flask_app.models.burger import Burger
 
 class Restaurant:
     def __init__(self, db_data ):
@@ -12,22 +13,23 @@ class Restaurant:
     @classmethod
     def save (cls, data ):
         query = "INSERT INTO restaurants (name, created_at, updated_at) VALUES (%(name)s, NOW(), NOW());"
-        return connectToMySQL('login_reg').query_db( query, data)
+        return connectToMySQL('burgersdb').query_db( query, data)
     
     @classmethod
     def get (cls, data ):
         query = "SELECT * FROM restaurants WHERE id = %(id)s;"
-        return connectToMySQL('login_reg').query_db( query, data)[0]
+        return connectToMySQL('burgersdb').query_db( query, data)[0]
     
     @classmethod
     def get_all (cls ):
         query = "SELECT * FROM restaurants;"
-        result = connectToMySQL('login_reg').query_db( query)
+        result = connectToMySQL('burgersdb').query_db( query)
         restaurants = []
         for i in result:
             print(i)
             restaurants.append(i)
         return restaurants
+    
     @classmethod
     def get_restaurant_with_burgers(cls, data ):
         query = "SELECT * FROM restaurants LEFT JOIN burgers ON burgers.restaurant_id = restaurants.id WHERE restaurants.id = %(id)s;"
@@ -45,5 +47,5 @@ class Restaurant:
                 "created_at": row_from_db["burgers.created_at"],
                 "updated_at": row_from_db["burgers.updated_at"]
             }
-            restaurant.burgers.append(burger.Burger( burger_data))
+            restaurant.burgers.append(Burger( burger_data))
         return restaurant
