@@ -16,20 +16,17 @@ def show_user(id):
 
 @app.route("/create_user", methods = ["POST"])
 def create_user():
-    data = {
-        'fname': request.form["fname"],
-        'lname': request.form["lname"],
-        'email': request.form["email"]
-    }
-
-    return redirect(url_for('show_user', id = User.save(data)))
+    if not User.validate_user(request.form):
+        # we redirect to the template with the form.
+        return redirect(url_for('index'))
+    return redirect(url_for('show_user', id = User.save(request.form)))
 
 @app.route('/update',methods=['POST'])
 def update():
     User.update(request.form)
-    return redirect('/')
+    return redirect(url_for('index'))
 
 @app.route("/delete/<int:id>")
 def delete(id):
     User.delete(id)
-    return redirect("/")
+    return redirect(url_for('index'))
