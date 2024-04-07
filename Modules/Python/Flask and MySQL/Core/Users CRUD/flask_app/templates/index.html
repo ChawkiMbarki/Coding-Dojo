@@ -22,12 +22,21 @@
         </div>
         <div class="row">
             <label class="col-sm-3 offset-sm-3 p-1" for="email" >Email:</label>
-            <input class="col-sm-3 m-1" type="email" name="email">
+            <input class="col-sm-3 m-1" type="text" name="email">
         </div>
         <div class="row">
             <input class="col-sm-3 offset-sm-5 mt-5 mb-5 btn btn-dark" type="submit" value="Add User">
         </div>
-    </form> 
+    </form>
+    {% with errors = get_flashed_messages(category_filter = ["error"]) %}
+        {% if errors %}
+            <ul class="text-center alert alert-danger">
+                {% for error in errors %}
+                    <li style="list-style: none;">{{ error }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    {% endwith%}
     <h1 class="text-center pb-1">Show Users</h1>
     <div class="row">
         <div class="col-1 border text-dark"><b>ID</b></div>
