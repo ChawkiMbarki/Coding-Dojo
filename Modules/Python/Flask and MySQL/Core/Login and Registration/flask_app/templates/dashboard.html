@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ user.first_name }} {{ user.last_name }}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+</head>
+
+<body class="container p-5">
+  <header style="display: flex; justify-content: space-between; align-items: center;">
+    <h1>Greetings {{ user.first_name }} {{ user.last_name }}</h1>
+    <a href="/user/logout" class="text-danger" style="font-weight: bold; text-decoration: none;">Logout</a>
+  </header>
+  <div class="border p-5">
+
+    <div class="row">
+      <div class="col-2"><p><b>ID : </b></p></div>
+      <div class="col-3">
+        <p>{{ user.id }}</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-2"><p><b>First Name : </b></p></div>
+      <div class="col-3">
+        <p>{{ user.first_name }}</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-2"><p><b>Last Name : </b></p></div>
+      <div class="col-3">
+        <p>{{ user.last_name }}</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-2"><p><b>Email : </b></p></div>
+      <div class="col-3">
+        <p>{{ user.email }}</p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
