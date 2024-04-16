@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+  <title>Home</title>
+</head>
+
+<body class="container p-5">
+  <div class="container bg-dark p-2 row" style="display: flex; justify-content: space-between;">
+    <form action="/user/create" method="POST" class="bg-white col-md-6 pt-4 border border-dark">
+      <h1 class="text-center pb-2">Add a user</h1>
+      <div class="row">
+        <label class="col-sm-4 offset-sm-2 p-1" for="first_name">First Name:</label>
+        <input class="col-sm-5 mb-2" type="text" name="first_name" id="first_name">
+      </div>
+      <div class="row">
+        <label class="col-sm-4 offset-sm-2 p-1" for="last_name">Last Name:</label>
+        <input class="col-sm-5 mb-2" type="text" name="last_name" id="last_name">
+      </div>
+      <div class="row">
+        <label class="col-sm-4 offset-sm-2 p-1" for="email">Email:</label>
+        <input class="col-sm-5 mb-2" type="text" name="email" id="email">
+      </div>
+      <div class="row">
+        <label class="col-sm-4 offset-sm-2 p-1" for="password">Password:</label>
+        <input class="col-sm-5 mb-2" type="password" name="password" id="password">
+      </div>
+      <div class="row">
+        <label class="col-sm-4 offset-sm-2 p-1" for="confirm_password">Confirm Password:</label>
+        <input class="col-sm-5" type="password" name="confirm_password" id="confirm_password">
+      </div>
+      <div class="row">
+        <input class="col-sm-6 offset-sm-3 mt-5 mb-5 btn btn-success" type="submit" value="Add User">
+      </div>
+    </form>
+
+    <form action="/user/login" method="POST" class="bg-white col-md-6 pt-4 border border-dark"
+      style="display: flex; flex-direction: column; justify-content: space-between;">
+      <h1 class="text-center pb-2">Login</h1>
+      <div class="inputs">
+        <div class="row">
+          <label class="col-sm-3 offset-sm-3 p-1" for="login_email">Email:</label>
+          <input class="col-sm-5 m-2" type="text" name="login_email" id="login_email">
+        </div>
+        <div class="row">
+          <label class="col-sm-3 offset-sm-3 p-1" for="login_password">Password:</label>
+          <input class="col-sm-5 m-2" type="password" name="login_password" id="login_password">
+        </div>
+      </div>
+      <div class="row">
+        <input class="col-sm-6 offset-sm-3 mt-5 mb-5 btn btn-primary" type="submit" value="Login">
+      </div>
+    </form>
+  </div>
+  {% with errors = get_flashed_messages(category_filter = ["error"]) %}
+  {% if errors %}
+  <ul class="text-center alert alert-danger mt-5">
+    {% for error in errors %}
+    <li style="list-style: none;">{{ error }}</li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+  {% endwith%}
+</body>
+
+</html>
