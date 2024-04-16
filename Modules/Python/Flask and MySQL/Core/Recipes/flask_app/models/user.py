@@ -29,3 +29,63 @@ class User:
     def save(data):
         query = "INSERT INTO users (first_name, last_name, email, password) VALUES (%(first_name)s, %(last_name)s, %(email)s, %(password)s)"
         return connectToMySQL().query_db(query, data)
+
+
+    @classmethod
+    def validate_registration(cls, user):
+        errors = []
+        
+        if(not val.validate_name(user['first_name'])):
+            error = "First Name - Must be letters only, at least 2 characters"
+            errors.append(error)
+            flash(error, 'error')
+        
+        if(not val.validate_name(user['last_name'])):
+            error = "Last Name - Must be letters only, at least 2 characters"
+            errors.append(error)
+            flash(error, 'error')
+        
+        if(not val.validate_email(user['email'])):
+            error = "Email - Must be in valid format"
+            errors.append(error)
+            flash(error, 'error')
+        
+        if(not val.validate_password(user['password'])):
+            error = "Password - Must be At least 8 characters"
+            errors.append(error)
+            flash(error, 'error')
+        
+        if(not user['confirm_password'] == user['password']):
+            error = "Password Confirmation - Must be the same as the password"
+            errors.append(error)
+            flash(error, 'error')
+        
+        if (not errors):
+            if(cls.get_by_email({"email": user['email']})):
+                error = "Your Email is already linked with another account"
+                errors.append(error)
+                flash(error, 'error')
+
+        return errors
+
+    @classmethod
+    def validate_login(cls, user):
+        errors = []
+        if(not val.validate_email(user['login_email'])): 
+            error = "Email - Must be in valid format"
+            errors.append(error)
+            flash(error, 'error')
+        
+        if(not val.validate_password(user['login_password'])): 
+            error = "Password - Must be At least 8 characters"
+            errors.append(error)
+            flash(error, 'error')
+        
+        if (not errors):
+            usr = cls.get_by_email({"email": user['login_email']})
+            if(not usr):
+                error = "Password or Email is wrong"
+                errors.append(error)
+                flash(error, 'error')
+        
+        return errors
