@@ -26,9 +26,17 @@ class User:
 
     @staticmethod
     def save(data):
-        query = "INSERT INTO users (first_name, last_name, email, password) VALUES (%(first_name)s, %(last_name)s, %(email)s, %(password)s)"
+        query = """INSERT 
+                    INTO users (first_name, last_name, email, password)
+                    VALUES (%(first_name)s, %(last_name)s, %(email)s, %(password)s)"""
         return connectToMySQL().query_db(query, data)
 
+    @classmethod
+    def getUsersById(cls, users):
+        users_list = []
+        for user_id in users:
+            users_list.append(cls.get_user({'id': user_id}))
+        return users_list
 
     @classmethod
     def validate_registration(cls, user):
