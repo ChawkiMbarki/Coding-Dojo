@@ -9,7 +9,7 @@
 </head>
 
 <body class="container p-5">
-  <div class="container bg-dark p-2 row" style="display: flex; justify-content: space-between;">
+  <main class="container bg-dark p-2 row" style="display: flex; justify-content: space-between;">
     <form action="/user/create" method="POST" class="bg-white col-md-6 pt-4 border border-dark">
       <h1 class="text-center pb-2">Register</h1>
       <div class="row">
@@ -36,7 +36,6 @@
         <input class="col-sm-6 offset-sm-3 mt-5 mb-5 btn btn-success" type="submit" value="Add User">
       </div>
     </form>
-
     <form action="/user/login" method="POST" class="bg-white col-md-6 pt-4 border border-dark"
       style="display: flex; flex-direction: column; justify-content: space-between;">
       <h1 class="text-center pb-2">Login</h1>
@@ -54,7 +53,7 @@
         <input class="col-sm-6 offset-sm-3 mt-5 mb-5 btn btn-primary" type="submit" value="Login">
       </div>
     </form>
-  </div>
+  </main>
   {% with errors = get_flashed_messages(category_filter = ["error"]) %}
   {% if errors %}
   <ul class="text-center alert alert-danger mt-5">
