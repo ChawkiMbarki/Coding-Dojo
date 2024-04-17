@@ -1,4 +1,5 @@
 from flask_app.models.user import User
+from flask_app.models.trip import Trip
 from flask_app import app
 from flask import redirect, request, render_template, url_for, session, flash
 from flask_bcrypt import Bcrypt
@@ -7,7 +8,7 @@ bcrypt = Bcrypt(app)
 
 @app.route('/')
 def home():
-  if('id' in session):
+  if 'id' in session:
     return redirect(url_for('dashboard'))
   
   return render_template('index.html')
@@ -52,4 +53,6 @@ def new_user():
 def dashboard():
   id = session['id']
   user = User.get_user({'id': id})
-  return render_template('dashboard.html', user = user)
+  user_trips = Trip.get_user_trips({'id': id})
+  other_trips = Trip.get_other_trips({'id': id})
+  return render_template('dashboard.html', user = user, user_trips = user_trips, other_trips = other_trips)
