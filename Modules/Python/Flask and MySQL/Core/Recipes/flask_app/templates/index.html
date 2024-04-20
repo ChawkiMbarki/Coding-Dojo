@@ -5,13 +5,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
-  <title>Home</title>
+  <title>Recipe Share</title>
 </head>
 
-<body class="container p-5">
-  <div class="container bg-dark p-2 row" style="display: flex; justify-content: space-between;">
+<body class="p-5" style="background-color: #fafafa;">
+  <header style="text-align: center;">
+    <h1 class="display-1 bg-light" style="color: #9900ff;"><u>Recipe</u><span style="text-decoration: overline;"> Share</span></h1>
+  </header>
+  <main class="container bg-dark p-2 mt-5" style="display: flex; justify-content: space-between;">
     <form action="/user/create" method="POST" class="bg-white col-md-6 pt-4 border border-dark">
-      <h1 class="text-center pb-2">Add a user</h1>
+      <h1 class="text-center pb-2">Register</h1>
       <div class="row">
         <label class="col-sm-4 offset-sm-2 p-1" for="first_name">First Name:</label>
         <input class="col-sm-5 mb-2" type="text" name="first_name" id="first_name">
@@ -36,7 +39,6 @@
         <input class="col-sm-6 offset-sm-3 mt-5 mb-5 btn btn-success" type="submit" value="Add User">
       </div>
     </form>
-
     <form action="/user/login" method="POST" class="bg-white col-md-6 pt-4 border border-dark"
       style="display: flex; flex-direction: column; justify-content: space-between;">
       <h1 class="text-center pb-2">Login</h1>
@@ -54,7 +56,7 @@
         <input class="col-sm-6 offset-sm-3 mt-5 mb-5 btn btn-primary" type="submit" value="Login">
       </div>
     </form>
-  </div>
+  </main>
   {% with errors = get_flashed_messages(category_filter = ["error"]) %}
   {% if errors %}
   <ul class="text-center alert alert-danger mt-5">
