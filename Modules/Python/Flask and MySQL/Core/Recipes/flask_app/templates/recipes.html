@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Share</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+</head>
+
+<body class="p-5" style="background-color: #fafafa;">
+  <header style="display: flex; justify-content: space-between; align-items: center;">
+    <div class="right-side">
+      <h1 class="display-6" style="color: #9900ff;">Welcome, {{ user.first_name|capitalize }}</h1>
+    </div>
+    <div class="left-side" style="display: flex; gap: 5vw;">
+      <a href="/recipes/new"><button class="btn btn-primary border border-dark">+ Create a new recipe!</button></a>
+      <a href="/user/logout" class="text-danger" style="font-weight: bold; text-decoration: none; display: flex; justify-content: space-between; align-items: center;">Logout</a>
+    </div>
+  </header>
+  <main class="container mt-5">
+    <p><b>All posted recipes</b>:</p>
+    <table class="container table table-bordered table-striped" style="border: black;">
+      <thead>
+        <tr class="row">
+          <th class="col" style="background-color: #6c36fc; color: white;">Name</th>
+          <th class="col-2" style="background-color: #6c36fc; color: white;">Under</th>
+          <th class="col-3" style="background-color: #6c36fc; color: white;">Posted By</th>
+          <th class="col" style="background-color: #6c36fc; color: white;">Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for recipe in recipes|reverse %}
+        <tr class="row">
+          <td class="col">{{recipe.name}}</td>
+          <td class="col-2">
+            {% if recipe.under_30 == 1 %}
+              Yes
+            {% else %}
+              No
+            {% endif %}
+          </td>
+          <td class="col-3">{{ recipe.owner_name|capitalize }}</td>
+          <td class="col">
+            {% if recipe.owner_id == user.id%}
+              <a href="/recipes/view/{{recipe.id}}" style="text-decoration: none;">View</a>
+              |
+              <a href="/recipes/edit/{{recipe.id}}" style="text-decoration: none;">Edit</a>
+              |
+              <a href="/recipes/remove/{{recipe.id}}" style="text-decoration: none;">Delete</a>
+            {% else %}
+              <a href="/recipes/view/{{recipe.id}}" style="text-decoration: none;">View</a>
+            {% endif %}
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </main>
+</body>
+
+</html>

@@ -1,0 +1,2 @@
+<h1>Assignment 1: <a href="https://login.codingdojo.africa/m/506/12464/87430">Users CRUD Modularized</a></h1>
+<h1>Assignment 2: <a href="https://login.codingdojo.africa/m/506/12465/87441">Pattern Validation</a></h1>
