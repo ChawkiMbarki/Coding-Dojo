@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+  <title>Recipe Share</title>
+</head>
+
+<body class="p-5" style="background-color: #fafafa;">
+  <header style="display: flex; justify-content: space-between; align-items: center;">
+    <div class="right-side">
+      <h1 class="display-6" style="color: #9900ff;">Edit Recipe!</h1>
+    </div>
+    <div class="left-side" style="display: flex; gap: 5vw;">
+      <a href="/recipes" class="text-primary" style="font-weight: bold; text-decoration: none;">Back to Recipes</a>
+      <a href="/user/logout" class="text-danger" style="font-weight: bold; text-decoration: none;">Logout</a>
+    </div>
+  </header>
+  <main>
+    <form action="/recipes/edit/{{recipe.id}}/save" method="POST" class="container p-5 mt-5 bg-white" style="border: 5px solid #6c36fc;">
+      <div class="row">
+        <div class="col">
+          <div class="row">
+            <label class="col-sm-3 offset-sm-2 p-1" for="name"><b>name</b>:</label>
+            <input class="col-sm-5 mb-2" type="text" name="name" id="name" value="{{ recipe.name }}">
+          </div>
+          <div class="row">
+            <label class="col-sm-3 offset-sm-2 p-1" for="description"><b>Description</b>:</label>
+            <textarea class="col-sm-5 mb-2" type="date" name="description" id="description"
+              style="overflow-y: scroll; resize: none;">{{ recipe.description }}</textarea>
+          </div>
+          <div class="row">
+            <label class="col-sm-3 offset-sm-2 p-1" for="instructions"><b>Instructions</b>:</label>
+            <textarea class="col-sm-5 mb-2" type="date" name="instructions" id="instructions"
+              style="overflow-y: scroll; resize: none;">{{ recipe.instructions }}</textarea>
+          </div>
+        </div>
+        <div class="col">
+          <div class="row">
+            <label class="col-sm-4 offset-4 p-1" for="created_at" style="text-align: center;"><b>Date
+                Cooked/Made</b>:</label>
+            <input type="date" class="col-sm-4 offset-4 p-1 mb-2" name="created_at" id="created_at" value="{{ recipe.created_at.strftime('%Y-%m-%d') }}">
+          </div>
+          <div class="row mt-4 mb-5">
+            <label class="col-sm-4 offset-4" for="under_30" style="text-align: center;"><b>Under 30
+                minutes?</b>:</label>
+            <div class="col-sm-2 offset-4" style="text-align: center;">
+              <input type="radio" class="mb-2" name="under_30" id="under_30_yes" style="cursor: pointer;" value="True" 
+              {% if recipe.under_30 == 1 %}
+              checked
+              {% endif %}
+              >
+              <label for="under_30_yes" style="cursor: pointer;">Yes</label>
+            </div>
+            <div class="col-sm-2" style="text-align: center;">
+              <label for="under_30_no" style="cursor: pointer;">No</label>
+              <input type="radio" class="mb-2" name="under_30" id="under_30_no" style="cursor: pointer;" value="False" 
+              {% if recipe.under_30 == 0 %}
+              checked
+              {% endif %}
+              >
+            </div>
+          </div>
+          <div class="row mb-4" style="display: flex;">
+            <a href="/recipes" class="col-sm-4 offset-2">
+              <input type="button" class="btn btn-danger" style="height: 100%; width: 100%;" value="Cancel">
+            </a>
+            <input class="col-sm-4 btn btn-primary" type="submit" value="Submit">
+          </div>
+        </div>
+      </div>
+    </form>
+    {% with errors = get_flashed_messages(category_filter = ["error"]) %}
+    {% if errors %}
+    <ul class="text-center alert alert-danger mt-5">
+      {% for error in errors %}
+      <li style="list-style: none;">{{ error }}</li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+    {% endwith%}
+  </main>
+</body>
+
+</html>

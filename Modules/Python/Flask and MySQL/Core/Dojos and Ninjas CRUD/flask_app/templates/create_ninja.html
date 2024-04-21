@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>New Ninja</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}" />
+</head>
+
+<body class="container p-5">
+  <div class="container p-4 bg-dark" style="border-radius: 13px">
+    <div class="row">
+      <div class="col-md-6">
+        <h2 class="text-success mb-4">New Ninja</h2>
+        <form action="/create_ninja" method="post" class="container">
+          <div class="row mb-3">
+            <label for="dojo_id" class="text-light col-3">Dojo:
+            </label>
+            <select name="dojo_id" id="dojo_id" class="col-6">
+              {% for dojo in dojos %}
+              <option value="{{ dojo['id'] }}">{{ dojo['name'] }}</option>
+              {% endfor %}
+            </select>
+          </div>
+
+          <div class="row mb-3">
+            <label for="first_name" class="text-light col-3">First Name:
+            </label>
+            <input placeholder="First Name" type="text" name="first_name" id="first_name" class="first_name col-6" />
+          </div>
+
+          <div class="row mb-3">
+            <label for="last_name" class="text-light col-3">Last Name:
+            </label>
+            <input placeholder="Last Name" type="text" name="last_name" id="last_name" class="last_name col-6" />
+          </div>
+
+          <div class="row mb-3">
+            <label for="age" class="text-light col-3">Age: </label>
+            <input placeholder="Age" type="number" name="age" id="age" class="age col-6" />
+          </div>
+
+          <input type="submit" value="Create" class="form-control mb-3" />
+          <a href="/" style="text-decoration: none;"><b>Home</b></a>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
