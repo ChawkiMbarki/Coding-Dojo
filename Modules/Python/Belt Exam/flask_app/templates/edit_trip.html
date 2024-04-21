@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+  <title>Edit Trip</title>
+</head>
+
+<body class="container p-5">
+  <header style="display: flex; justify-content: space-between; align-items: center;">
+    <div class="right-side">
+      <h1 class="text-left pb-2">Hello {{user.first_name}}! Let's edit your trip!</h1>
+    </div>
+    <div class="left-side">
+      <a href="/user/logout" class="text-danger" style="font-weight: bold; text-decoration: none;">Logout</a>
+    </div>
+  </header>
+  <main>
+    <div class="container bg-dark p-2 row">
+      <form action="/trips/edit/{{trip.id}}/success" method="POST" class="bg-white pt-4 border border-dark">
+        <div class="row">
+          <label class="col-sm-2 offset-sm-3 p-1" for="destination">Destination:</label>
+          <input class="col-sm-4 mb-2" type="text" name="destination" id="destination" value="{{trip.destination}}">
+        </div>
+        <div class="row">
+          <label class="col-sm-2 offset-sm-3 p-1" for="start_date">Start Date:</label>
+          <input class="col-sm-4 mb-2" type="date" name="start_date" id="start_date" value="{{trip.start_date}}">
+        </div>
+        <div class="row">
+          <label class="col-sm-2 offset-sm-3 p-1" for="end_date">End Date:</label>
+          <input class="col-sm-4 mb-2" type="date" name="end_date" id="end_date" value="{{trip.end_date}}">
+        </div>
+        <div class="row">
+          <label class="col-sm-2 offset-sm-3 p-1" for="plan">Plan:</label>
+          <textarea class="col-sm-4 mb-2" name="plan" id="plan" style="resize: none; overflow-y: scroll;">{{trip.plan}}</textarea>
+        </div>
+        <div class="row m-5 gap-5" style="display: flex;">
+          <a href="/dashboard" class="col-sm-2 offset-sm-4">
+            <input type="button" class="btn btn-danger" style="height: 100%; width: 100%;" value="Cancel">
+          </a>
+          <input class="col-sm-2 btn btn-primary" type="submit" value="Submit">
+        </div>
+      </form>
+    </div>
+    {% with errors = get_flashed_messages(category_filter = ["error"]) %}
+    {% if errors %}
+    <ul class="text-center alert alert-danger mt-5">
+      {% for error in errors %}
+      <li style="list-style: none;">{{ error }}</li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+    {% endwith%}
+  </main>
+</body>
+
+</html>

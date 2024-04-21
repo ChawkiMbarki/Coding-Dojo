@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+  <title>View Trip</title>
+</head>
+
+<body class="container p-5">
+  <header style="display: flex; justify-content: space-between; align-items: center;">
+    <div class="right-side">
+      <h1 class="text-left pb-2">Hello {{ user.first_name|capitalize }}! Let's edit your trip!</h1>
+    </div>
+    <div class="left-side" style="display: flex; gap: 5vw;">
+      <a href="/dashboard" class="text-primary" style="font-weight: bold; text-decoration: none;">Dashboard</a>
+      <a href="/user/logout" class="text-danger" style="font-weight: bold; text-decoration: none;">Logout</a>
+    </div>
+  </header>
+  <main>
+    <div class="container pt-5 row">
+      <p><b>{{ trip.destination|upper }}</b></p>
+      <div class="trip bg-white border border-dark">
+        <p><i><b>Start Date:</b></i> {{ trip.end_date }}</p>
+        <p><i><b>End Date:</b></i> {{ trip.end_date }}</p>
+        <p><i><b>Created On:</b></i> {{ trip.created_at }}</p>
+        <p><i><b>Last Updated:</b></i> {{ trip.updated_at }}</p>
+        <p><i><b>Plan:</b></i> {{ trip.plan|capitalize }}</p>
+        <p><i><b>Created by:</b></i> {{ creator.first_name|capitalize }} {{ creator.last_name|capitalize }}</p>
+      </div>
+      <div class="container pt-4 row">
+        <p><b>People who've joined the trip</b></p>
+        <div class=" p-2 trip bg-white border border-dark">
+          <ul style="list-style: none;">
+            {% for i in users %}
+              {% if creator.id != i.id %}
+              <li>{{ i.first_name|capitalize }}</li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </div>
+
+      </div>
+  </main>
+</body>
+
+</html>
