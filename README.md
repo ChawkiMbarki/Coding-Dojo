@@ -26,4 +26,4 @@ If you'd like to contribute to any of these projects, please follow these guidel
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Contact 📧
-Questions, feedback, or just want to say hi? Feel free to reach out to us at 'mbarkishawki@gmail.com'.
+Questions, feedback, or just want to say hi? Feel free to reach out to me: 'mbarkishawki@gmail.com'.
