@@ -1,1 +1,0 @@
-<h1>Assignment: <a href ="https://login.codingdojo.africa/m/674/15368/112037">Predict Destructuring</a></h1>
