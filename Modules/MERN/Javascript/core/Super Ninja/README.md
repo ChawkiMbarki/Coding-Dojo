@@ -1,0 +1,2 @@
+<h1>Assignment: <a href ="https://login.codingdojo.africa/m/674/15369/112052">Super Ninja</a></h1>
+This assignment is built on the <a href="https://github.com/ChawkiMbarki/Coding-Dojo/tree/main/Modules/MERN/Javascript/practice/Ninja">Ninja</a> practice assaignment
