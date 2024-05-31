@@ -1,0 +1,2 @@
+<h1>Assignment 1 (PRACTICE): <a href ="https://login.codingdojo.africa/m/674/15378/112151">Prop It Up</a></h1>
+<h1>Assignment 2 (CORE): <a href ="https://login.codingdojo.africa/m/674/15378/112156">Putting it Together</a></h1>
