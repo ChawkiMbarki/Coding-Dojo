@@ -20,3 +20,13 @@
   background-color: rgb(255, 94, 0);
   cursor: pointer;
 }
+
+.changed {
+  animation: ageChangeAnimation .5s;
+}
+
+@keyframes ageChangeAnimation {
+  0% { color: black; } /* Initial state */
+  50% { color: red;} /* Transition state */
+  100% { color: black;} /* Final state */
+}
