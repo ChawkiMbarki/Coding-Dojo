@@ -9,5 +9,14 @@
 .card:hover {
   background-color: rgb(197, 197, 197);
   transform: scale(1.1);
+}
+
+.card button {
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 1rem 2rem;
+  color: white;
+  background-color: rgb(255, 94, 0);
   cursor: pointer;
 }

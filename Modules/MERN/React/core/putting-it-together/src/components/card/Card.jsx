@@ -10,6 +10,7 @@ const Card = (props) => {
       <h3>{lastName}, {firstName}</h3>
       <p><b>Age:</b> {age}</p>
       <p><b>Hair Color:</b> {hairColor}</p>
+      <button type='button'>Birthday Button for {firstName} {lastName}</button>
     </li>
   );
 };
