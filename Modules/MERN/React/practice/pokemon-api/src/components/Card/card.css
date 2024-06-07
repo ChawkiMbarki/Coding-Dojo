@@ -1,0 +1,9 @@
+li {
+  height: 50px;
+  min-width: 19%;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+  border: 1px solid black;
+}
