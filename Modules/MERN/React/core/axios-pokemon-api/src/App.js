@@ -1,18 +1,17 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
+import axios from 'axios';
 
 import { Cards } from './containers';
 import './app.css'
 
 const App = () => {
-
   const [pokemons, setPokemons] = useState([]);
 
   const fetchAllPokemons = async () => {
     let url = "https://pokeapi.co/api/v2/pokemon?limit=807";
     try {
-      const response = await fetch(url);
-      const data = await response.json();
-      setPokemons(data.results); 
+      const response = await axios.get(url);
+      setPokemons(response.data.results);
     } catch (err) {
       console.log(err);
     }
@@ -20,7 +19,8 @@ const App = () => {
 
   return (
     <div className='app flex column'>
-      <button onClick={fetchAllPokemons}>Fetch Pokemon</button>
+      <button onClick={fetchAllPokemons} disabled={loading}>
+      </button>
       <Cards pokemons={pokemons} />
     </div>
   )
