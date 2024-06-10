@@ -1,0 +1,8 @@
+.error {
+  align-items: center;
+  min-height: 40px;
+
+  color: rgb(255, 0, 55);
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bolder;
+}
