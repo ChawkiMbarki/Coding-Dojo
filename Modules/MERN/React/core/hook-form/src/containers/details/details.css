@@ -1,0 +1,11 @@
+.details {
+  width: 100%;
+  padding: 15px;
+  gap: 15px;
+  
+  color: white;
+}
+
+.info {
+  color: red;
+}
