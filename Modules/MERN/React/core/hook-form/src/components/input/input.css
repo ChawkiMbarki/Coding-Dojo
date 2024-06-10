@@ -1,0 +1,10 @@
+.row {
+  width: 100%;
+  
+  justify-content: space-between;
+  gap: 25px;
+}
+
+lable {
+  color: white;
+}
