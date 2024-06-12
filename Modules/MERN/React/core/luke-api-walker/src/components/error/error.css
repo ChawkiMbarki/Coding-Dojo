@@ -1,0 +1,15 @@
+.error {
+  height: 50px;
+  width: 100%;
+  margin-top: 25px;
+
+  justify-content: center;
+  align-items: center;
+
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #d81936;
+
+  background-color: #F8D7DA;
+  border-radius: 15px;
+}
