@@ -1,0 +1,2 @@
+<h1>Assignment1 (PRACTICE): <a href ="https://login.codingdojo.africa/m/674/15385/112242">Product Manager (Part I)</a></h1>
+<h1>Assignment2 (CORE): <a href ="https://login.codingdojo.africa/m/674/15385/112244">Product Manager (Part II)</a></h1>
