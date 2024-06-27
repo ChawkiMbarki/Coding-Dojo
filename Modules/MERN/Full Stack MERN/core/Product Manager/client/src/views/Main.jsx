@@ -8,6 +8,7 @@ import ProductsDisplay from '../components/ProductsDisplay';
 const Main = () => {
   const [products, setProducts] = useState([])
   const [loaded, setLoaded] = useState(false)
+  const [status, setStatus] = useState(false)
 
   useEffect(() => {
     axios.get("http://localhost:8000/api/product")
@@ -16,18 +17,19 @@ const Main = () => {
         setLoaded(true)
       })
       .catch(error => console.error(error))
+    setStatus(false)
   }
-  , [])
+  , [status])
 
   return (
     <div>
       <center>
         <h1>Product Manager</h1><br />
-        <ProductForm />
+        <ProductForm setStatus={setStatus} />
         <br /><br />
         <hr />
         <br />
-        {loaded && <ProductsDisplay products={ products } />}
+        {loaded && <ProductsDisplay setStatus={setStatus} products={ products } />}
         
       </center>
     </div>
