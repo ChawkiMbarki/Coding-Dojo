@@ -1,0 +1,55 @@
+.btn {
+  width: 100%;
+}
+
+.btn button {
+  width: 100%;
+  padding: 5px;
+  cursor: pointer;
+  border: 1px solid black;
+  transition: 0.3s;
+}
+
+.btn button:hover{
+  color: white;
+  transform: scale(1.05);
+}
+
+.btn .success {
+  background-color: rgb(87, 255, 112);
+}
+
+.btn .danger {
+  background-color: rgb(255, 87, 87);
+}
+
+.btn .warning {
+  background-color: rgb(255, 171, 87);
+}
+
+.btn .success:hover {
+  background-color: rgb(53, 163, 69);
+}
+
+.btn .danger:hover {
+  background-color: rgb(112, 0, 0);
+}
+
+.btn .warning:hover {
+  background-color: rgb(170, 76, 0);
+}
+
+.btn .success:active {
+  background-color: rgb(70, 211, 91);
+}
+
+
+.btn .danger:active {
+  background-color: rgb(255, 0, 0);
+  transform: scale(1.02);
+}
+
+.btn .warning:active {
+  background-color: rgb(255, 115, 0);
+  transform: scale(1.02);
+}

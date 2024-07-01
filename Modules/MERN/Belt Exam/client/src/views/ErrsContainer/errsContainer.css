@@ -1,0 +1,11 @@
+.errsContainer {
+  background-color: rgb(255, 182, 182) !important;
+}
+
+.errsContainer ul {
+  list-style: none;
+}
+
+.errsContainer h2 {
+  color: red;
+}
