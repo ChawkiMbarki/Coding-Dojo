@@ -1,0 +1,19 @@
+.input {
+  width: 100%;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.input input {
+  padding: 5px;
+  width: 80%;
+}
+
+.input input::placeholder {
+  font-size: 16px;
+}
+
+.input label {
+  padding: 5px;
+  width: 20%;
+}

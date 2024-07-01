@@ -1,0 +1,9 @@
+.app {
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 530px;
+  padding: 25px;
+}

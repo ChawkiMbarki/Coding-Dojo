@@ -1,0 +1,16 @@
+.App {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  overflow: hidden;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+  
+  padding: 0;
+  list-style: none;
+}

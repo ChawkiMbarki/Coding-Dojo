@@ -1,0 +1,7 @@
+.app {
+  width: 600px;
+  min-width: 440px;
+
+  align-items: center;
+  margin-top: 25px;
+}

@@ -1,0 +1,13 @@
+.card {
+  padding: 1rem 2rem;
+  border: 1px solid black;
+  border-radius: 15px;
+  transition: .3s;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card:hover {
+  background-color: rgb(197, 197, 197);
+  transform: scale(1.1);
+  cursor: pointer;
+}

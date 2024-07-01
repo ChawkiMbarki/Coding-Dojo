@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+body {
+  padding-top: 25px;
+  background-color: rgb(224, 224, 255);
+}
+
+form {
+  max-width: 300px;
+  gap: 5px;
+}
+
+.input {
+  color: white;
+  background-color: rgb(24, 70, 150);
+  gap: 10px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+input[type="submit"] {
+  background-color: rgb(165, 165, 255);
+  padding: 15px;
+  border: 1px solid black;
+  outline: none;
+  cursor: pointer;
+
+  transition: 0.5s;
+}
+
+input[type="submit"]:hover {
+  border-radius: 15px;
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+input[type="submit"]:active {
+  background-color: rgb(124, 124, 255);
+  border-radius: 25px;
+  transform: scale(1.05);
+}
+
+ul {
+  margin-top: 15px;
+  align-items: center;
+  gap: 5px;
+}
+
+li {
+  justify-content: space-around;
+  align-items: center;
+  width: 250px;
+  padding: 5px;
+}
+
+.buttons {
+  gap: 5px;
+}
+
+.buttons button {
+  color: white;
+  padding: 10px;
+  border: 1px solid black;
+  outline: none;
+  cursor: pointer;
+  border-radius: 15px;
+  transition: 0.5s;
+}
+
+.delete {
+  background-color: rgb(255, 47, 75);
+}
+
+.update {
+  background-color: rgb(0, 182, 133);
+}
+
+.buttons button:hover {
+  border-radius: 0px;
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.buttons button:active {
+  background-color: rgb(124, 124, 255);
+  border-radius: 25px;
+  transform: scale(1.05);
+}
+
+.link {
+  color: rgb(0, 34, 255) !important;
+  text-decoration: none;
+}
+
+.details {
+  align-items: center;
+}
