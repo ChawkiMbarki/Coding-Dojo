@@ -1,0 +1,45 @@
+ul {
+  list-style: none;
+}
+
+.projectsContainer {
+  width: 100%;
+}
+
+.projectsWrapper{
+  width: 33%;
+}
+
+.projectsWrapper h3 {
+  padding: 10px 0;
+  width: 100%;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.projectsWrapper.pending h3 {
+  background-color: #9fc5f8;
+}
+
+.projectsWrapper.inProgress h3 {
+  background-color: #ffe599;
+}
+
+.projectsWrapper.completed h3 {
+  background-color: #b6d7a8;
+}
+
+.projects-list {
+  padding: 13px 0 13px 13px;
+  height: 450px;
+  border: 1px solid black;
+  overflow-y: scroll;
+}
+
+
+.linkWrapper {
+  padding: 5px;
+  background-color: #F5F5F5;
+  width: 90%;
+  border: 1px solid black;
+}
