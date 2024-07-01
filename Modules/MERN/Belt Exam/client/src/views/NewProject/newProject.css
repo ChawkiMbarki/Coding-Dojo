@@ -1,0 +1,15 @@
+.form form {
+  gap: 5px;
+}
+
+.form .btns {
+  justify-content: space-between;
+  width: 320px;
+  gap: 5px;
+}
+
+.link {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+}
