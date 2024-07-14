@@ -4,9 +4,9 @@ Console.WriteLine("-------------");
 
 static void PrintList(List<string> MyList)
 {
-  for (int i = 0; i < MyList.Count; i++)
+  foreach (string item in MyList)
   {
-    Console.WriteLine(MyList[i]);
+    Console.WriteLine(item);
   }
 }
 List<string> TestStringList = new List<string>() {"Harry", "Steve", "Carla", "Jeanne"};
@@ -64,10 +64,7 @@ List<int> TestIntList3 = new List<int>() {1,2,3,4,5};
 // You should get back [1,4,9,16,25], think about how you will show that this worked
 TestIntList3 = SquareValues(TestIntList3);
 Console.Write('[');
-foreach (int num in TestIntList3)
-{
-  Console.Write($"{num} ");
-}
+Console.Write(string.Join(", ", TestIntList3));
 Console.Write(']');
 
 Console.WriteLine("\n===========================================================================");
@@ -88,11 +85,8 @@ static int[] NonNegatives(int[] IntArray)
 int[] TestIntArray = new int[] {-1,2,3,-4,5};
 // You should get back [0,2,3,0,5], think about how you will show that this worked
 TestIntArray = NonNegatives(TestIntArray);
-
-foreach (int num in TestIntArray)
-{
-  Console.Write($"{num} ");
-}
+Console.Write('[');
+Console.Write(string.Join(", ", TestIntArray));
 Console.Write(']');
 
 Console.WriteLine("\n===========================================================================");
@@ -116,18 +110,11 @@ Console.WriteLine("\n===========================================================
 Console.WriteLine("7");
 Console.WriteLine("-------------");
 
-static bool FindKey(Dictionary<string,string> MyDictionary, string SearchTerm)
+static bool FindKey(Dictionary<string, string> MyDictionary, string SearchTerm)
 {
-  foreach(KeyValuePair<string, string> item in MyDictionary)
-  {
-    if (item.Key == SearchTerm)
-    {
-      return true;
-    }
-  }
-  return false;
+  return MyDictionary.ContainsKey(SearchTerm);
 }
-// Use the TestDict from the earlier example or make your own
+
 // This should print true
 Console.WriteLine(FindKey(TestDict, "RealName"));
 // This should print false
