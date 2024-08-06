@@ -5,8 +5,8 @@ namespace HomeController.Controllers;
 public class HomeController : Controller
 {
     [HttpGet("")]
-    public string Index()
+    public ViewResult Index()
     {
-        return "This is my Index!";
+        return View();
     }
 }

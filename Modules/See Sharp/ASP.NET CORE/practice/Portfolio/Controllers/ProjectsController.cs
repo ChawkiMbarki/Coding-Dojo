@@ -4,9 +4,9 @@ namespace Projects.controller;
 
 public class ProjectsController : Controller
 {
-    [HttpGet("/Projects")]
-    public string Projects()
+    [HttpGet("Projects")]
+    public ViewResult Projects()
     {
-        return "These are my projects";
+        return View("Projects");
     }
 }
