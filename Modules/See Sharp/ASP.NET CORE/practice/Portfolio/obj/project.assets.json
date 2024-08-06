@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\mbark\\.nuget\\packages\\": {}
+    "C:\\Users\\Chawki\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Hajji\\Chawki\\Coding-Dojo\\Coding-Dojo\\Modules\\See Sharp\\ASP.NET CORE\\practice\\Portfolio\\Portfolio.csproj",
+      "projectUniqueName": "D:\\Storage\\6 . Development\\Coding-Dojo\\Modules\\See Sharp\\ASP.NET CORE\\practice\\Portfolio\\Portfolio.csproj",
       "projectName": "Portfolio",
-      "projectPath": "D:\\Hajji\\Chawki\\Coding-Dojo\\Coding-Dojo\\Modules\\See Sharp\\ASP.NET CORE\\practice\\Portfolio\\Portfolio.csproj",
-      "packagesPath": "C:\\Users\\mbark\\.nuget\\packages\\",
-      "outputPath": "D:\\Hajji\\Chawki\\Coding-Dojo\\Coding-Dojo\\Modules\\See Sharp\\ASP.NET CORE\\practice\\Portfolio\\obj\\",
+      "projectPath": "D:\\Storage\\6 . Development\\Coding-Dojo\\Modules\\See Sharp\\ASP.NET CORE\\practice\\Portfolio\\Portfolio.csproj",
+      "packagesPath": "C:\\Users\\Chawki\\.nuget\\packages\\",
+      "outputPath": "D:\\Storage\\6 . Development\\Coding-Dojo\\Modules\\See Sharp\\ASP.NET CORE\\practice\\Portfolio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\mbark\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Chawki\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
