@@ -4,9 +4,9 @@ namespace Contact.Controllers;
 
 public class ContactController : Controller   // Remember inheritance?    
 {
-    [HttpGet("/Contact")]
-    public string Contact()
+    [HttpGet("Contact")]
+    public ViewResult Contact()
     {
-        return "This is my Contact!";
+        return View("Contact");
     }
 }

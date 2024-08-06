@@ -24,3 +24,32 @@ D:\Hajji\Chawki\Coding-Dojo\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\
 D:\Hajji\Chawki\Coding-Dojo\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Portfolio\obj\Debug\net8.0\Portfolio.pdb
 D:\Hajji\Chawki\Coding-Dojo\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Portfolio\obj\Debug\net8.0\Portfolio.genruntimeconfig.cache
 D:\Hajji\Chawki\Coding-Dojo\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Portfolio\obj\Debug\net8.0\ref\Portfolio.dll
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Portfolio\bin\Debug\net8.0\appsettings.Development.json
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Portfolio\bin\Debug\net8.0\appsettings.json
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Portfolio\bin\Debug\net8.0\Portfolio.exe
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Portfolio\bin\Debug\net8.0\Portfolio.deps.json
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Portfolio\bin\Debug\net8.0\Portfolio.runtimeconfig.json
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Portfolio\bin\Debug\net8.0\Portfolio.dll
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Portfolio\bin\Debug\net8.0\Portfolio.pdb
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Portfolio\obj\Debug\net8.0\Portfolio.GeneratedMSBuildEditorConfig.editorconfig
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Portfolio\obj\Debug\net8.0\Portfolio.AssemblyInfoInputs.cache
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Portfolio\obj\Debug\net8.0\Portfolio.AssemblyInfo.cs
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Portfolio\obj\Debug\net8.0\Portfolio.csproj.CoreCompileInputs.cache
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Portfolio\obj\Debug\net8.0\Portfolio.MvcApplicationPartsAssemblyInfo.cache
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Portfolio\obj\Debug\net8.0\Portfolio.sourcelink.json
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Portfolio\obj\Debug\net8.0\staticwebassets.build.json
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Portfolio\obj\Debug\net8.0\staticwebassets.development.json
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Portfolio\obj\Debug\net8.0\staticwebassets\msbuild.Portfolio.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Portfolio\obj\Debug\net8.0\staticwebassets\msbuild.build.Portfolio.props
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Portfolio\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Portfolio.props
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Portfolio\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Portfolio.props
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Portfolio\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Portfolio\obj\Debug\net8.0\scopedcss\bundle\Portfolio.styles.css
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Portfolio\obj\Debug\net8.0\Portfolio.dll
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Portfolio\obj\Debug\net8.0\refint\Portfolio.dll
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Portfolio\obj\Debug\net8.0\Portfolio.pdb
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Portfolio\obj\Debug\net8.0\Portfolio.genruntimeconfig.cache
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Portfolio\obj\Debug\net8.0\ref\Portfolio.dll
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Portfolio\obj\Debug\net8.0\Portfolio.RazorAssemblyInfo.cache
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Portfolio\obj\Debug\net8.0\Portfolio.RazorAssemblyInfo.cs
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Portfolio\bin\Debug\net8.0\Portfolio.staticwebassets.runtime.json
