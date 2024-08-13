@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Storage\\6 . Development\\Coding-Dojo\\Modules\\See Sharp\\ASP.NET CORE\\core\\Dojo Survey\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Dojo Survey.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Dojo Survey.props",
+      "PackagePath": "build\\Dojo Survey.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Dojo Survey.props",
+      "PackagePath": "buildMultiTargeting\\Dojo Survey.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Dojo Survey.props",
+      "PackagePath": "buildTransitive\\Dojo Survey.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

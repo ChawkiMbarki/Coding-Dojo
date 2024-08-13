@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "DpKwrWyDXQNxxBK1QASPXyn7DGe8+4MUJWvx6Q+jTdA=",
+  "Source": "Dojo Survey",
+  "BasePath": "_content/Dojo Survey",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Dojo Survey\\wwwroot",
+      "Source": "Dojo Survey",
+      "ContentRoot": "D:\\Storage\\6 . Development\\Coding-Dojo\\Modules\\See Sharp\\ASP.NET CORE\\core\\Dojo Survey\\wwwroot\\",
+      "BasePath": "_content/Dojo Survey",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Storage\\6 . Development\\Coding-Dojo\\Modules\\See Sharp\\ASP.NET CORE\\core\\Dojo Survey\\wwwroot\\css\\style.css",
+      "SourceId": "Dojo Survey",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Storage\\6 . Development\\Coding-Dojo\\Modules\\See Sharp\\ASP.NET CORE\\core\\Dojo Survey\\wwwroot\\",
+      "BasePath": "_content/Dojo Survey",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    }
+  ]
+}
