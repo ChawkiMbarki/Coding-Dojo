@@ -1,0 +1,44 @@
+﻿@model Dojo_Survey_With_Validations.Models.Survey;
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<fieldset class="flex">
+    <form asp-action="Result" method="post" class="flex column">
+        <div class="flex column">
+            <div class="flex">
+                <label asp-for="Name">Your Name:</label>
+                <input asp-for="Name" class="form-control" />
+            </div>
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+        <div class="flex column">
+            <div class="flex">
+                <label asp-for="Location">Location:</label>
+                <input asp-for="Location" class="form-control" />
+            </div>
+            <span asp-validation-for="Location" class="text-danger"></span>
+        </div>
+        <div class="flex column">
+            <div class="flex">
+                <label asp-for="Language">Favorite Language:</label>
+                <select asp-for="Language" class="form-control">
+                    <option value="">Select Language</option>
+                    <option value="C#">C#</option>
+                    <option value="JavaScript">JavaScript</option>
+                    <option value="Python">Python</option>
+                </select>
+            </div>
+            <span asp-validation-for="Language" class="text-danger"></span>
+        </div>
+        <div class="flex column">
+            <div class="flex">
+                <label asp-for="Comment">Comment:</label>
+                <textarea asp-for="Comment" class="form-control"></textarea>
+            </div>
+            <span asp-validation-for="Comment" class="text-danger"></span>
+        </div>
+        <button type="submit" class="btn btn-secondary">Submit</button>
+    </form>
+</fieldset>
