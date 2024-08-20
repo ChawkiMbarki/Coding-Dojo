@@ -1,0 +1,31 @@
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\ViewModel Fun\obj\Debug\net8.0\ViewModel Fun.GeneratedMSBuildEditorConfig.editorconfig
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\ViewModel Fun\obj\Debug\net8.0\ViewModel Fun.AssemblyInfoInputs.cache
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\ViewModel Fun\obj\Debug\net8.0\ViewModel Fun.AssemblyInfo.cs
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\ViewModel Fun\obj\Debug\net8.0\ViewModel Fun.csproj.CoreCompileInputs.cache
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\ViewModel Fun\obj\Debug\net8.0\ViewModel Fun.MvcApplicationPartsAssemblyInfo.cache
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\ViewModel Fun\obj\Debug\net8.0\ViewModel Fun.RazorAssemblyInfo.cache
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\ViewModel Fun\obj\Debug\net8.0\ViewModel Fun.RazorAssemblyInfo.cs
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\ViewModel Fun\obj\Debug\net8.0\ViewModel Fun.sourcelink.json
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\ViewModel Fun\bin\Debug\net8.0\appsettings.Development.json
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\ViewModel Fun\bin\Debug\net8.0\appsettings.json
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\ViewModel Fun\bin\Debug\net8.0\ViewModel Fun.staticwebassets.runtime.json
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\ViewModel Fun\bin\Debug\net8.0\ViewModel Fun.exe
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\ViewModel Fun\bin\Debug\net8.0\ViewModel Fun.deps.json
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\ViewModel Fun\bin\Debug\net8.0\ViewModel Fun.runtimeconfig.json
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\ViewModel Fun\bin\Debug\net8.0\ViewModel Fun.dll
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\ViewModel Fun\bin\Debug\net8.0\ViewModel Fun.pdb
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\ViewModel Fun\obj\Debug\net8.0\staticwebassets.build.json
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\ViewModel Fun\obj\Debug\net8.0\staticwebassets.development.json
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\ViewModel Fun\obj\Debug\net8.0\staticwebassets\msbuild.ViewModel Fun.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\ViewModel Fun\obj\Debug\net8.0\staticwebassets\msbuild.build.ViewModel Fun.props
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\ViewModel Fun\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ViewModel Fun.props
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\ViewModel Fun\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ViewModel Fun.props
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\ViewModel Fun\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\ViewModel Fun\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\ViewModel Fun\obj\Debug\net8.0\scopedcss\bundle\ViewModel Fun.styles.css
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\ViewModel Fun\obj\Debug\net8.0\scopedcss\projectbundle\ViewModel Fun.bundle.scp.css
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\ViewModel Fun\obj\Debug\net8.0\ViewModel Fun.dll
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\ViewModel Fun\obj\Debug\net8.0\refint\ViewModel Fun.dll
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\ViewModel Fun\obj\Debug\net8.0\ViewModel Fun.pdb
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\ViewModel Fun\obj\Debug\net8.0\ViewModel Fun.genruntimeconfig.cache
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\ViewModel Fun\obj\Debug\net8.0\ref\ViewModel Fun.dll
