@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<fieldset class="flex">
+    <form asp-action="SubmitForm" method="post" class="flex column">
+        <div>
+            <label>Your Name:</label>
+            <input type="text" name="name" required />
+        </div>
+        <div>
+            <label>Dojo Location:</label>
+            <input type="text" name="location" required />
+        </div>
+        <div>
+            <label>Favorite Language:</label>
+            <select name="language" id="language">
+                <option value="C#">C#</option>
+                <option value="JavaScript">JavaScript</option>
+                <option value="Python">Python</option>
+            </select>
+        </div>
+        <div>
+            <label>Comment:</label>
+            <textarea name="comment" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-secondary">Submit</button>
+    </form>
+</fieldset>
