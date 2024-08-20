@@ -1,0 +1,31 @@
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\core\Session Workshop\bin\Debug\net8.0\appsettings.Development.json
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\core\Session Workshop\bin\Debug\net8.0\appsettings.json
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\core\Session Workshop\bin\Debug\net8.0\Session Workshop.staticwebassets.runtime.json
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\core\Session Workshop\bin\Debug\net8.0\Session Workshop.exe
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\core\Session Workshop\bin\Debug\net8.0\Session Workshop.deps.json
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\core\Session Workshop\bin\Debug\net8.0\Session Workshop.runtimeconfig.json
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\core\Session Workshop\bin\Debug\net8.0\Session Workshop.dll
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\core\Session Workshop\bin\Debug\net8.0\Session Workshop.pdb
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\core\Session Workshop\obj\Debug\net8.0\Session Workshop.GeneratedMSBuildEditorConfig.editorconfig
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\core\Session Workshop\obj\Debug\net8.0\Session Workshop.AssemblyInfoInputs.cache
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\core\Session Workshop\obj\Debug\net8.0\Session Workshop.AssemblyInfo.cs
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\core\Session Workshop\obj\Debug\net8.0\Session Workshop.csproj.CoreCompileInputs.cache
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\core\Session Workshop\obj\Debug\net8.0\Session Workshop.MvcApplicationPartsAssemblyInfo.cache
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\core\Session Workshop\obj\Debug\net8.0\Session Workshop.RazorAssemblyInfo.cache
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\core\Session Workshop\obj\Debug\net8.0\Session Workshop.RazorAssemblyInfo.cs
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\core\Session Workshop\obj\Debug\net8.0\Session Workshop.sourcelink.json
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\core\Session Workshop\obj\Debug\net8.0\staticwebassets.build.json
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\core\Session Workshop\obj\Debug\net8.0\staticwebassets.development.json
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\core\Session Workshop\obj\Debug\net8.0\staticwebassets\msbuild.Session Workshop.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\core\Session Workshop\obj\Debug\net8.0\staticwebassets\msbuild.build.Session Workshop.props
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\core\Session Workshop\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Session Workshop.props
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\core\Session Workshop\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Session Workshop.props
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\core\Session Workshop\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\core\Session Workshop\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\core\Session Workshop\obj\Debug\net8.0\scopedcss\bundle\Session Workshop.styles.css
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\core\Session Workshop\obj\Debug\net8.0\scopedcss\projectbundle\Session Workshop.bundle.scp.css
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\core\Session Workshop\obj\Debug\net8.0\Session Workshop.dll
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\core\Session Workshop\obj\Debug\net8.0\refint\Session Workshop.dll
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\core\Session Workshop\obj\Debug\net8.0\Session Workshop.pdb
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\core\Session Workshop\obj\Debug\net8.0\Session Workshop.genruntimeconfig.cache
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\core\Session Workshop\obj\Debug\net8.0\ref\Session Workshop.dll
