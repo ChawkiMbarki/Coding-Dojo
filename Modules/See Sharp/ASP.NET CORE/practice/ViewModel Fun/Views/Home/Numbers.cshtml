@@ -1,0 +1,13 @@
+@{
+    ViewData["Title"] = "Numbers";
+}
+@model ViewModel_Fun.Models.NumbersViewModel
+
+<h1>Here are some numbers</h1>
+
+<ul>
+    @foreach (var number in Model.Numbers)
+    {
+        <li>@number</li>
+    }
+</ul>
