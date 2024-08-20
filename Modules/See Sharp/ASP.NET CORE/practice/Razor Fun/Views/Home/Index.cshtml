@@ -1,0 +1,26 @@
+﻿@{
+    var foodList = new List<string>
+{
+"Apple Pie",
+"Pizza",
+"Cinnamon Rolls",
+"Lasagna",
+"Donuts",
+"Chocolate Cake",
+"Burritos"
+};
+}
+
+<h1>Here are some delicious foods!</h1>
+
+@foreach (string food in foodList)
+{
+    if (food[0] == 'C')
+    {
+        <p style="color: red">@food</p>
+    }
+    else
+    {
+        <p>@food</p>
+    }
+}
