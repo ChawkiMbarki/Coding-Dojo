@@ -1,0 +1,31 @@
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Razor Fun\bin\Debug\net8.0\appsettings.Development.json
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Razor Fun\bin\Debug\net8.0\appsettings.json
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Razor Fun\bin\Debug\net8.0\Razor Fun.staticwebassets.runtime.json
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Razor Fun\bin\Debug\net8.0\Razor Fun.exe
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Razor Fun\bin\Debug\net8.0\Razor Fun.deps.json
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Razor Fun\bin\Debug\net8.0\Razor Fun.runtimeconfig.json
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Razor Fun\bin\Debug\net8.0\Razor Fun.dll
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Razor Fun\bin\Debug\net8.0\Razor Fun.pdb
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Razor Fun\obj\Debug\net8.0\Razor Fun.GeneratedMSBuildEditorConfig.editorconfig
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Razor Fun\obj\Debug\net8.0\Razor Fun.AssemblyInfoInputs.cache
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Razor Fun\obj\Debug\net8.0\Razor Fun.AssemblyInfo.cs
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Razor Fun\obj\Debug\net8.0\Razor Fun.csproj.CoreCompileInputs.cache
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Razor Fun\obj\Debug\net8.0\Razor Fun.MvcApplicationPartsAssemblyInfo.cache
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Razor Fun\obj\Debug\net8.0\Razor Fun.RazorAssemblyInfo.cache
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Razor Fun\obj\Debug\net8.0\Razor Fun.RazorAssemblyInfo.cs
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Razor Fun\obj\Debug\net8.0\Razor Fun.sourcelink.json
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Razor Fun\obj\Debug\net8.0\staticwebassets.build.json
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Razor Fun\obj\Debug\net8.0\staticwebassets.development.json
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Razor Fun\obj\Debug\net8.0\staticwebassets\msbuild.Razor Fun.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Razor Fun\obj\Debug\net8.0\staticwebassets\msbuild.build.Razor Fun.props
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Razor Fun\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Razor Fun.props
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Razor Fun\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Razor Fun.props
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Razor Fun\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Razor Fun\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Razor Fun\obj\Debug\net8.0\scopedcss\bundle\Razor Fun.styles.css
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Razor Fun\obj\Debug\net8.0\scopedcss\projectbundle\Razor Fun.bundle.scp.css
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Razor Fun\obj\Debug\net8.0\Razor Fun.dll
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Razor Fun\obj\Debug\net8.0\refint\Razor Fun.dll
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Razor Fun\obj\Debug\net8.0\Razor Fun.pdb
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Razor Fun\obj\Debug\net8.0\Razor Fun.genruntimeconfig.cache
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Razor Fun\obj\Debug\net8.0\ref\Razor Fun.dll
