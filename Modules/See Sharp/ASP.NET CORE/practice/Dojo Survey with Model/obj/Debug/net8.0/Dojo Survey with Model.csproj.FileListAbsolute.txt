@@ -1,0 +1,31 @@
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Dojo Survey with Model\obj\Debug\net8.0\Dojo Survey with Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Dojo Survey with Model\obj\Debug\net8.0\Dojo Survey with Model.AssemblyInfoInputs.cache
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Dojo Survey with Model\obj\Debug\net8.0\Dojo Survey with Model.AssemblyInfo.cs
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Dojo Survey with Model\obj\Debug\net8.0\Dojo Survey with Model.csproj.CoreCompileInputs.cache
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Dojo Survey with Model\obj\Debug\net8.0\Dojo Survey with Model.MvcApplicationPartsAssemblyInfo.cache
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Dojo Survey with Model\obj\Debug\net8.0\Dojo Survey with Model.RazorAssemblyInfo.cache
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Dojo Survey with Model\obj\Debug\net8.0\Dojo Survey with Model.RazorAssemblyInfo.cs
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Dojo Survey with Model\obj\Debug\net8.0\Dojo Survey with Model.sourcelink.json
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Dojo Survey with Model\bin\Debug\net8.0\appsettings.Development.json
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Dojo Survey with Model\bin\Debug\net8.0\appsettings.json
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Dojo Survey with Model\bin\Debug\net8.0\Dojo Survey with Model.staticwebassets.runtime.json
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Dojo Survey with Model\bin\Debug\net8.0\Dojo Survey with Model.exe
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Dojo Survey with Model\bin\Debug\net8.0\Dojo Survey with Model.deps.json
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Dojo Survey with Model\bin\Debug\net8.0\Dojo Survey with Model.runtimeconfig.json
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Dojo Survey with Model\bin\Debug\net8.0\Dojo Survey with Model.dll
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Dojo Survey with Model\bin\Debug\net8.0\Dojo Survey with Model.pdb
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Dojo Survey with Model\obj\Debug\net8.0\staticwebassets.build.json
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Dojo Survey with Model\obj\Debug\net8.0\staticwebassets.development.json
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Dojo Survey with Model\obj\Debug\net8.0\staticwebassets\msbuild.Dojo Survey with Model.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Dojo Survey with Model\obj\Debug\net8.0\staticwebassets\msbuild.build.Dojo Survey with Model.props
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Dojo Survey with Model\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Dojo Survey with Model.props
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Dojo Survey with Model\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Dojo Survey with Model.props
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Dojo Survey with Model\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Dojo Survey with Model\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Dojo Survey with Model\obj\Debug\net8.0\scopedcss\bundle\Dojo Survey with Model.styles.css
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Dojo Survey with Model\obj\Debug\net8.0\scopedcss\projectbundle\Dojo Survey with Model.bundle.scp.css
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Dojo Survey with Model\obj\Debug\net8.0\Dojo Survey with Model.dll
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Dojo Survey with Model\obj\Debug\net8.0\refint\Dojo Survey with Model.dll
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Dojo Survey with Model\obj\Debug\net8.0\Dojo Survey with Model.pdb
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Dojo Survey with Model\obj\Debug\net8.0\Dojo Survey with Model.genruntimeconfig.cache
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\practice\Dojo Survey with Model\obj\Debug\net8.0\ref\Dojo Survey with Model.dll

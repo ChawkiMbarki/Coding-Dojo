@@ -1,0 +1,67 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.flex {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+fieldset {
+  margin-top: 55px;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+form, .content-wrapper {
+  width: 450px;
+  gap: 15px;
+}
+
+form > div, .content-wrapper > div {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+form  input, form  textarea, form  select{
+  width: 50%;
+  cursor: pointer;
+}
+
+textarea {
+  resize: none;
+}
+
+button {
+  margin-top: 15px;
+}
+
+h5 {
+  width: 50%;
+}
