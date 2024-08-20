@@ -1,0 +1,30 @@
+<div class="content-wrapper flex column">
+    <h1>Welcome, @Model.Name!</h1>
+    <h2>Current Value: @Model.Number</h2>
+
+    <div class="container2 flex mt-5">
+        <form method="post" action="/Home/Dashboard">
+            <input type="hidden" name="test" value="1">
+            <button type="submit" class="operation-button btn btn-warning">+1</button>
+        </form>
+
+        <form method="post" action="/Home/Dashboard">
+            <input type="hidden" name="test" value="2">
+            <button type="submit" class="operation-button btn btn-danger">-1</button>
+        </form>
+
+        <form method="post" action="/Home/Dashboard">
+            <input type="hidden" name="test" value="3">
+            <button type="submit" class="operation-button btn btn-primary">x2</button>
+        </form>
+
+        <form method="post" action="/Home/Dashboard">
+            <input type="hidden" name="test" value="4">
+            <button type="submit" class="operation-button btn btn-success">+ Random (1-10)</button>
+        </form>
+
+        <form method="post" action="/Home/Logout">
+            <button type="submit" class="btn btn-danger">Log Out</button>
+        </form>
+    </div>
+</div>
