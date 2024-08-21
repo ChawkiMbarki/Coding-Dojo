@@ -1,0 +1,15 @@
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ORMs\core\LINQ Eruption\bin\Debug\net8.0\LINQ Eruption.exe
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ORMs\core\LINQ Eruption\bin\Debug\net8.0\LINQ Eruption.deps.json
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ORMs\core\LINQ Eruption\bin\Debug\net8.0\LINQ Eruption.runtimeconfig.json
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ORMs\core\LINQ Eruption\bin\Debug\net8.0\LINQ Eruption.dll
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ORMs\core\LINQ Eruption\bin\Debug\net8.0\LINQ Eruption.pdb
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ORMs\core\LINQ Eruption\obj\Debug\net8.0\LINQ Eruption.GeneratedMSBuildEditorConfig.editorconfig
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ORMs\core\LINQ Eruption\obj\Debug\net8.0\LINQ Eruption.AssemblyInfoInputs.cache
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ORMs\core\LINQ Eruption\obj\Debug\net8.0\LINQ Eruption.AssemblyInfo.cs
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ORMs\core\LINQ Eruption\obj\Debug\net8.0\LINQ Eruption.csproj.CoreCompileInputs.cache
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ORMs\core\LINQ Eruption\obj\Debug\net8.0\LINQ Eruption.sourcelink.json
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ORMs\core\LINQ Eruption\obj\Debug\net8.0\LINQ Eruption.dll
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ORMs\core\LINQ Eruption\obj\Debug\net8.0\refint\LINQ Eruption.dll
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ORMs\core\LINQ Eruption\obj\Debug\net8.0\LINQ Eruption.pdb
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ORMs\core\LINQ Eruption\obj\Debug\net8.0\LINQ Eruption.genruntimeconfig.cache
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ORMs\core\LINQ Eruption\obj\Debug\net8.0\ref\LINQ Eruption.dll
