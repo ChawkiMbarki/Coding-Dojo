@@ -1,0 +1,40 @@
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ORMs\practice\First Connection\bin\Debug\net8.0\appsettings.Development.json
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ORMs\practice\First Connection\bin\Debug\net8.0\appsettings.json
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ORMs\practice\First Connection\bin\Debug\net8.0\First Connection.staticwebassets.runtime.json
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ORMs\practice\First Connection\bin\Debug\net8.0\First Connection.exe
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ORMs\practice\First Connection\bin\Debug\net8.0\First Connection.deps.json
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ORMs\practice\First Connection\bin\Debug\net8.0\First Connection.runtimeconfig.json
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ORMs\practice\First Connection\bin\Debug\net8.0\First Connection.dll
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ORMs\practice\First Connection\bin\Debug\net8.0\First Connection.pdb
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ORMs\practice\First Connection\bin\Debug\net8.0\Humanizer.dll
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ORMs\practice\First Connection\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ORMs\practice\First Connection\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ORMs\practice\First Connection\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ORMs\practice\First Connection\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ORMs\practice\First Connection\bin\Debug\net8.0\MySqlConnector.dll
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ORMs\practice\First Connection\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ORMs\practice\First Connection\obj\Debug\net8.0\First Connection.csproj.AssemblyReference.cache
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ORMs\practice\First Connection\obj\Debug\net8.0\First Connection.GeneratedMSBuildEditorConfig.editorconfig
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ORMs\practice\First Connection\obj\Debug\net8.0\First Connection.AssemblyInfoInputs.cache
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ORMs\practice\First Connection\obj\Debug\net8.0\First Connection.AssemblyInfo.cs
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ORMs\practice\First Connection\obj\Debug\net8.0\First Connection.csproj.CoreCompileInputs.cache
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ORMs\practice\First Connection\obj\Debug\net8.0\First Connection.MvcApplicationPartsAssemblyInfo.cache
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ORMs\practice\First Connection\obj\Debug\net8.0\First Connection.RazorAssemblyInfo.cache
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ORMs\practice\First Connection\obj\Debug\net8.0\First Connection.RazorAssemblyInfo.cs
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ORMs\practice\First Connection\obj\Debug\net8.0\First Connection.sourcelink.json
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ORMs\practice\First Connection\obj\Debug\net8.0\staticwebassets.build.json
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ORMs\practice\First Connection\obj\Debug\net8.0\staticwebassets.development.json
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ORMs\practice\First Connection\obj\Debug\net8.0\staticwebassets\msbuild.First Connection.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ORMs\practice\First Connection\obj\Debug\net8.0\staticwebassets\msbuild.build.First Connection.props
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ORMs\practice\First Connection\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.First Connection.props
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ORMs\practice\First Connection\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.First Connection.props
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ORMs\practice\First Connection\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ORMs\practice\First Connection\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ORMs\practice\First Connection\obj\Debug\net8.0\scopedcss\bundle\First Connection.styles.css
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ORMs\practice\First Connection\obj\Debug\net8.0\scopedcss\projectbundle\First Connection.bundle.scp.css
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ORMs\practice\First Connection\obj\Debug\net8.0\First Co.69D5C08B.Up2Date
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ORMs\practice\First Connection\obj\Debug\net8.0\First Connection.dll
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ORMs\practice\First Connection\obj\Debug\net8.0\refint\First Connection.dll
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ORMs\practice\First Connection\obj\Debug\net8.0\First Connection.pdb
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ORMs\practice\First Connection\obj\Debug\net8.0\First Connection.genruntimeconfig.cache
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ORMs\practice\First Connection\obj\Debug\net8.0\ref\First Connection.dll
