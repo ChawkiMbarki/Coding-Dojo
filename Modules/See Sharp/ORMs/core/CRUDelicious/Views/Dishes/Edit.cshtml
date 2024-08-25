@@ -1,0 +1,54 @@
+@model CRUDelicious.Models.Dish
+
+@{
+    ViewBag.Title = "Edit " + Model.Name;
+
+    var tastinessOptions = new List<SelectListItem>
+{
+new SelectListItem { Value = "1", Text = "1" },
+new SelectListItem { Value = "2", Text = "2" },
+new SelectListItem { Value = "3", Text = "3" },
+new SelectListItem { Value = "4", Text = "4" },
+new SelectListItem { Value = "5", Text = "5" }
+};
+}
+
+<h2 class="text-center">Edit @Model.Name</h2>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="DishId" />
+
+    <div class="form-group mb-3">
+        <label asp-for="Chef" class="control-label">Chef's Name</label>
+        <input asp-for="Chef" class="form-control" />
+        <span asp-validation-for="Chef" class="text-danger"></span>
+    </div>
+
+    <div class="form-group mb-3">
+        <label asp-for="Tastiness" class="control-label">Tastiness</label>
+        <select asp-for="Tastiness" class="form-select" asp-items="tastinessOptions"></select>
+        <span asp-validation-for="Tastiness" class="text-danger"></span>
+    </div>
+
+    <div class="form-group mb-3">
+        <label asp-for="Name" class="control-label">Name of Dish</label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="form-group mb-3">
+        <label asp-for="Calories" class="control-label">Calories</label>
+        <input asp-for="Calories" class="form-control" type="number" />
+        <span asp-validation-for="Calories" class="text-danger"></span>
+    </div>
+
+    <div class="form-group mb-3">
+        <label asp-for="Description" class="control-label">Description</label>
+        <textarea asp-for="Description" class="form-control"></textarea>
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <input type="submit" value="Edit Dish" class="btn btn-primary" />
+    </div>
+</form>
