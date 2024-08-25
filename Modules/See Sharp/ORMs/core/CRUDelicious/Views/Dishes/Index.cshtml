@@ -1,0 +1,17 @@
+@model CRUDelicious.Models.Dish
+
+@{
+    ViewBag.Title = Model.Name;
+}
+
+<h2 class="text-center">@Model.Name</h2>
+<p class="dish-intro">@Model.Name By @Model.Chef</p>
+<p><b>@Model.Description</b></p>
+<p><b>Calories: @Model.Calories</b></p>
+<p><b>Tastiness: @Model.Tastiness</b></p>
+<div class="btns flex">
+    <form asp-action="Delete" asp-controller="Dishes" asp-route-dishId="@Model.DishId" method="post">
+        <input class="btn btn-danger" type="submit" value="Delete">
+    </form>
+    <a class="btn btn-primary" asp-controller="Dishes" asp-action="Edit" asp-route-dishId="@Model.DishId">Edit</a>
+</div>

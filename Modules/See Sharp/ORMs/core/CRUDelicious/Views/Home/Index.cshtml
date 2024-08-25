@@ -1,0 +1,15 @@
+﻿@{
+    ViewBag.Title = "All Dishes";
+}
+
+@model List<CRUDelicious.Models.Dish>
+
+<h2>Check out some recent dishes</h2>
+<ul class="navbar-nav flex-grow-1">
+    @foreach (var dish in Model)
+    {
+        <li>
+            <a asp-controller="Dishes" asp-action="Index" asp-route-dishId="@dish.DishId">@dish.Name</a> By @dish.Chef
+        </li>
+    }
+</ul>
