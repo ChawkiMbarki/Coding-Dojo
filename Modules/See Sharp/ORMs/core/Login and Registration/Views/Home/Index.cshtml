@@ -1,0 +1,13 @@
+﻿@model Login_and_Registration.Models.IndexViewModel
+
+@{
+  ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+  <h1 class="display-4">Welcome</h1>
+  <div class="forms flex">
+    @await Html.PartialAsync("_Register", Model.RegisterModel)
+    @await Html.PartialAsync("_Login", Model.LoginModel)
+  </div>
+</div>
