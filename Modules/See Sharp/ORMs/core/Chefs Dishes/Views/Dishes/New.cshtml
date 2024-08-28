@@ -1,0 +1,38 @@
+@model Chefs_Dishes.Models.Dish
+
+@{
+  ViewBag.Title = "Add a Dish";
+}
+
+<div class="container">
+  <h2>Add a Dish</h2>
+  <form asp-action="New" method="post">
+    <div class="form-group">
+      <label asp-for="Name" class="control-label"></label>
+      <input asp-for="Name" class="form-control" />
+      <span class="text-danger" asp-validation-for="Name"></span>
+    </div>
+    <div class="form-group">
+      <label asp-for="ChefId" class="control-label">Chef's Name</label>
+      <select asp-for="ChefId" asp-items="ViewBag.Chefs" class="form-control"></select>
+      <span class="text-danger" asp-validation-for="ChefId"></span>
+    </div>
+    <div class="form-group">
+      <label asp-for="Calories" class="control-label"></label>
+      <input asp-for="Calories" class="form-control" />
+      <span class="text-danger" asp-validation-for="Calories"></span>
+    </div>
+    <div class="form-group">
+      <label asp-for="Tastiness" class="control-label"></label>
+      <select asp-for="Tastiness" class="form-control">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select>
+      <span class="text-danger" asp-validation-for="Tastiness"></span>
+    </div>
+    <button type="submit" class="btn btn-primary mt-4">Add Dish</button>
+  </form>
+</div>

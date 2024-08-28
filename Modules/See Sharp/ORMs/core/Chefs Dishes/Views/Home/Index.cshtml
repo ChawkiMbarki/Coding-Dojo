@@ -1,0 +1,29 @@
+﻿@model IEnumerable<Chefs_Dishes.Models.Chef>
+
+@{
+  ViewBag.Title = "Chefs";
+}
+
+<div class="container">
+  <h2>Chefs</h2>
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Number of Dishes</th>
+      </tr>
+    </thead>
+    <tbody>
+      @foreach (var chef in Model)
+      {
+        <tr>
+          <td>@chef.FirstName @chef.LastName</td>
+          <td>@(DateTime.Now.Year - chef.DateOfBirth.Year)</td>
+          <td>@chef.AllDishes.Count()</td>
+        </tr>
+      }
+    </tbody>
+  </table>
+  <a  class="btn btn-primary" asp-area="" asp-controller="Chefs" asp-action="New">Add a Chef</a>
+</div>
