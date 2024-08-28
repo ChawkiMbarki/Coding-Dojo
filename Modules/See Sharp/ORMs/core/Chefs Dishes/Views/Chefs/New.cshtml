@@ -1,0 +1,27 @@
+@model Chefs_Dishes.Models.Chef
+
+@{
+  ViewBag.Title = "Add a Chef";
+}
+
+<div class="container">
+  <h2>Add a Chef</h2>
+  <form asp-action="New" method="post">
+    <div class="form-group">
+      <label asp-for="FirstName" class="control-label"></label>
+      <input asp-for="FirstName" class="form-control" />
+      <span class="text-danger" asp-validation-for="FirstName"></span>
+    </div>
+    <div class="form-group">
+      <label asp-for="LastName" class="control-label"></label>
+      <input asp-for="LastName" class="form-control" />
+      <span class="text-danger" asp-validation-for="LastName"></span>
+    </div>
+    <div class="form-group">
+      <label asp-for="DateOfBirth" class="control-label"></label>
+      <input asp-for="DateOfBirth" type="date" class="form-control" />
+      <span class="text-danger" asp-validation-for="DateOfBirth"></span>
+    </div>
+    <button type="submit" class="btn btn-primary mt-4">Add Chef</button>
+  </form>
+</div>
