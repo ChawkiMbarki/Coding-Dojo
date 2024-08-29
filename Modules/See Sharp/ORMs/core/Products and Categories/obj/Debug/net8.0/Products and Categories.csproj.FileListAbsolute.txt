@@ -1,0 +1,40 @@
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Products and Categories\bin\Debug\net8.0\appsettings.Development.json
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Products and Categories\bin\Debug\net8.0\appsettings.json
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Products and Categories\bin\Debug\net8.0\Products and Categories.staticwebassets.runtime.json
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Products and Categories\bin\Debug\net8.0\Products and Categories.exe
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Products and Categories\bin\Debug\net8.0\Products and Categories.deps.json
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Products and Categories\bin\Debug\net8.0\Products and Categories.runtimeconfig.json
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Products and Categories\bin\Debug\net8.0\Products and Categories.dll
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Products and Categories\bin\Debug\net8.0\Products and Categories.pdb
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Products and Categories\bin\Debug\net8.0\Humanizer.dll
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Products and Categories\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Products and Categories\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Products and Categories\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Products and Categories\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Products and Categories\bin\Debug\net8.0\MySqlConnector.dll
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Products and Categories\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Products and Categories\obj\Debug\net8.0\Products and Categories.csproj.AssemblyReference.cache
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Products and Categories\obj\Debug\net8.0\Products and Categories.GeneratedMSBuildEditorConfig.editorconfig
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Products and Categories\obj\Debug\net8.0\Products and Categories.AssemblyInfoInputs.cache
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Products and Categories\obj\Debug\net8.0\Products and Categories.AssemblyInfo.cs
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Products and Categories\obj\Debug\net8.0\Products and Categories.csproj.CoreCompileInputs.cache
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Products and Categories\obj\Debug\net8.0\Products and Categories.MvcApplicationPartsAssemblyInfo.cache
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Products and Categories\obj\Debug\net8.0\Products and Categories.RazorAssemblyInfo.cache
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Products and Categories\obj\Debug\net8.0\Products and Categories.RazorAssemblyInfo.cs
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Products and Categories\obj\Debug\net8.0\Products and Categories.sourcelink.json
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Products and Categories\obj\Debug\net8.0\staticwebassets.build.json
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Products and Categories\obj\Debug\net8.0\staticwebassets.development.json
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Products and Categories\obj\Debug\net8.0\staticwebassets\msbuild.Products and Categories.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Products and Categories\obj\Debug\net8.0\staticwebassets\msbuild.build.Products and Categories.props
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Products and Categories\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Products and Categories.props
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Products and Categories\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Products and Categories.props
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Products and Categories\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Products and Categories\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Products and Categories\obj\Debug\net8.0\scopedcss\bundle\Products and Categories.styles.css
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Products and Categories\obj\Debug\net8.0\scopedcss\projectbundle\Products and Categories.bundle.scp.css
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Products and Categories\obj\Debug\net8.0\Products.2C3CC2F2.Up2Date
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Products and Categories\obj\Debug\net8.0\Products and Categories.dll
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Products and Categories\obj\Debug\net8.0\refint\Products and Categories.dll
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Products and Categories\obj\Debug\net8.0\Products and Categories.pdb
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Products and Categories\obj\Debug\net8.0\Products and Categories.genruntimeconfig.cache
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Products and Categories\obj\Debug\net8.0\ref\Products and Categories.dll
