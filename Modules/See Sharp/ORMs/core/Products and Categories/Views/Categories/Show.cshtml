@@ -1,0 +1,27 @@
+@model Products_and_Categories.Models.Category
+@{
+  ViewBag.Title = Model.Name;
+}
+<div class="container">
+  <h2>@Model.Name</h2>
+  <h4>Products</h4>
+  <ul class="list-group">
+    @foreach (var association in Model.Associations)
+    {
+      <li class="list-group-item">@association.Product.Name</li>
+    }
+  </ul>
+  <h4>Add Product</h4>
+  <form asp-action="AddProductToCategory" method="post">
+    <input type="hidden" name="categoryId" value="@Model.CategoryId" />
+    <div class="form-group">
+      <select name="productId" class="form-control">
+        @foreach (var product in ViewBag.Products)
+        {
+          <option value="@product.ProductId">@product.Name</option>
+        }
+      </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Add</button>
+  </form>
+</div>
