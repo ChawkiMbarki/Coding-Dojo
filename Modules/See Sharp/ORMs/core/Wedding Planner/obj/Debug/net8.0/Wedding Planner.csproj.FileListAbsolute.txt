@@ -1,0 +1,40 @@
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Wedding Planner\bin\Debug\net8.0\appsettings.Development.json
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Wedding Planner\bin\Debug\net8.0\appsettings.json
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Wedding Planner\bin\Debug\net8.0\Wedding Planner.staticwebassets.runtime.json
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Wedding Planner\bin\Debug\net8.0\Wedding Planner.exe
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Wedding Planner\bin\Debug\net8.0\Wedding Planner.deps.json
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Wedding Planner\bin\Debug\net8.0\Wedding Planner.runtimeconfig.json
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Wedding Planner\bin\Debug\net8.0\Wedding Planner.dll
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Wedding Planner\bin\Debug\net8.0\Wedding Planner.pdb
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Wedding Planner\bin\Debug\net8.0\Humanizer.dll
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Wedding Planner\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Wedding Planner\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Wedding Planner\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Wedding Planner\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Wedding Planner\bin\Debug\net8.0\MySqlConnector.dll
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Wedding Planner\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Wedding Planner\obj\Debug\net8.0\Wedding Planner.csproj.AssemblyReference.cache
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Wedding Planner\obj\Debug\net8.0\Wedding Planner.GeneratedMSBuildEditorConfig.editorconfig
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Wedding Planner\obj\Debug\net8.0\Wedding Planner.AssemblyInfoInputs.cache
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Wedding Planner\obj\Debug\net8.0\Wedding Planner.AssemblyInfo.cs
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Wedding Planner\obj\Debug\net8.0\Wedding Planner.csproj.CoreCompileInputs.cache
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Wedding Planner\obj\Debug\net8.0\Wedding Planner.MvcApplicationPartsAssemblyInfo.cache
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Wedding Planner\obj\Debug\net8.0\Wedding Planner.RazorAssemblyInfo.cache
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Wedding Planner\obj\Debug\net8.0\Wedding Planner.RazorAssemblyInfo.cs
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Wedding Planner\obj\Debug\net8.0\Wedding Planner.sourcelink.json
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Wedding Planner\obj\Debug\net8.0\staticwebassets.build.json
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Wedding Planner\obj\Debug\net8.0\staticwebassets.development.json
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Wedding Planner\obj\Debug\net8.0\staticwebassets\msbuild.Wedding Planner.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Wedding Planner\obj\Debug\net8.0\staticwebassets\msbuild.build.Wedding Planner.props
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Wedding Planner\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Wedding Planner.props
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Wedding Planner\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Wedding Planner.props
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Wedding Planner\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Wedding Planner\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Wedding Planner\obj\Debug\net8.0\scopedcss\bundle\Wedding Planner.styles.css
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Wedding Planner\obj\Debug\net8.0\scopedcss\projectbundle\Wedding Planner.bundle.scp.css
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Wedding Planner\obj\Debug\net8.0\Wedding .3ED163AC.Up2Date
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Wedding Planner\obj\Debug\net8.0\Wedding Planner.dll
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Wedding Planner\obj\Debug\net8.0\refint\Wedding Planner.dll
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Wedding Planner\obj\Debug\net8.0\Wedding Planner.pdb
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Wedding Planner\obj\Debug\net8.0\Wedding Planner.genruntimeconfig.cache
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Wedding Planner\obj\Debug\net8.0\ref\Wedding Planner.dll
