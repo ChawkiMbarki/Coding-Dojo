@@ -1,0 +1,13 @@
+@model Wedding
+
+<h1>@Model.WedderOne & @Model.WedderTwo's Wedding</h1>
+<p class="mt-5">Date: @Model.Date.ToString("MMM dd, yyyy")</p>
+<h3>Guests:</h3>
+<ul>
+  @foreach (var rsvp in Model.RSVPs)
+  {
+    <li>@rsvp.User.FirstName @rsvp.User.LastName</li>
+  }
+</ul>
+
+<a asp-action="Dashboard" class="btn btn-secondary mt-5">Back to Dashboard</a>
