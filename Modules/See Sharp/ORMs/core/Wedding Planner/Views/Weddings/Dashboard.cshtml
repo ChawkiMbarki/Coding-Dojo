@@ -1,0 +1,52 @@
+@model List<Wedding>
+
+@{
+  var userId = Context.Session.GetInt32("UserId");
+}
+
+<a asp-action="LogOut" asp-controller="Users" class="btn btn-danger logout">Logout</a>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Wedding of</th>
+      <th>Date</th>
+      <th>Guest Count</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    @if (Model != null)
+    {
+      foreach (var wedding in Model)
+      {
+        <tr>
+          <td><a asp-action="Details" asp-route-weddingId="@wedding.Id">@wedding.WedderOne & @wedding.WedderTwo</a></td>
+          <td>@wedding.Date.ToString("MMM dd yyyy")</td>
+          <td>@wedding.RSVPs.Count</td>
+          <td>
+            @if (wedding.PlannerId == userId)
+            {
+              <form asp-action="Delete" asp-route-weddingId="@wedding.Id" method="post">
+                <button type="submit" class="btn btn-danger">Delete</button>
+              </form>
+            }
+            else if (wedding.RSVPs.Any(r => r.UserId == userId))
+            {
+              <form asp-action="UnRSVP" asp-route-weddingId="@wedding.Id" method="post">
+                <button type="submit" class="btn btn-warning">Un-RSVP</button>
+              </form>
+            }
+            else
+            {
+              <form asp-action="RSVP" asp-route-weddingId="@wedding.Id" method="post">
+                <button type="submit" class="btn btn-success">RSVP</button>
+              </form>
+            }
+          </td>
+        </tr>
+      }
+    }
+  </tbody>
+</table>
+<a asp-action="Plan" class="btn btn-primary">Plan a Wedding</a>
