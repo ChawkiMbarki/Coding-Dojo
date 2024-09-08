@@ -1,0 +1,61 @@
+@model Recipy
+
+@{
+  ViewData["Status"] = "LoggedIn";
+  bool hasRated = ViewBag.HasRated;
+  string averageRating = ViewBag.AverageRating;
+}
+
+<div class="recipe-details flex">
+  <div class="left flex column">
+    <div>
+      <div class="Recipy_title flex">
+        <h1>@Model.Title</h1>
+        <p class="rating"><b>@averageRating</b></p>
+      </div>
+      <p style="font-style: italic;">By @Model.Creator.FirstName @Model.Creator.LastName[0]</p>
+    </div>
+
+    @if (ViewBag.Votes == 1)
+    {
+      <p class="mt-3">1 person have rated this</p>
+    }
+    else
+    {
+      <p class="mt-3">@ViewBag.Votes people have rated this</p>
+    }
+    <div class="rating-section">
+
+      @if (hasRated)
+      {
+        <p style="margin: 0;">You gave it a @Model.Ratings.First(r => r.UserId == (int)ViewBag.UserId).Value out of 5</p>
+        <form class="flex mb-4" method="post" asp-action="UnRate" asp-route-recipyId="@Model.Id">
+          <button class="btn btn-warning" type="submit">Unrate</button>
+        </form>
+      }
+      else
+      {
+        <form method="post" asp-action="Rate" asp-route-recipyId="@Model.Id">
+          <input type="number" name="Value" min="1" max="5" required />
+          <button type="submit" class="btn btn-warning">Rate</button>
+        </form>
+      }
+    </div>
+    <ul class="mb-4" style="list-style: none; padding-left: 0;">
+      <li><b>Ingredient 1: </b>@Model.Ingredient1</li>
+      <li><b>Ingredient 2: </b>@Model.Ingredient2</li>
+      <li><b>Ingredient 3: </b>@Model.Ingredient3</li>
+      <li><b>Ingredient 4: </b>@Model.Ingredient4</li>
+      <li><b>Ingredient 5: </b>@Model.Ingredient5</li>
+    </ul>
+
+    <span class="text-muted">@(Model.Vegitarian ? "Vegetarian" : "Not Vegetarian")</span>
+    <span class="text-muted">@(Model.Gluten ? "Gluten Free" : "Not Gluten Free")</span>
+
+  </div>
+  <div class="right">
+    <h3>Instructions:</h3>
+    <p>@Model.Instructions</p>
+  </div>
+
+</div>

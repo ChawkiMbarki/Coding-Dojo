@@ -1,0 +1,13 @@
+﻿@model Belt_Exam.Models.IndexViewModel
+
+@{
+  ViewData["Title"] = "Home Page";
+  ViewData["navigation"] = "None";
+}
+<h1 class="my-5">5 Ingredient Recipes</h1>
+<div class="text-center">
+  <div class="forms flex">
+    @await Html.PartialAsync("_Register", Model.RegisterModel)
+    @await Html.PartialAsync("_Login", Model.LoginModel)
+  </div>
+</div>

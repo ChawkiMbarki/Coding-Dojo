@@ -1,0 +1,69 @@
+@model Recipy
+
+@{
+  ViewData["Status"] = "LoggedIn";
+}
+
+<h1 class="mb-4">Add a Recipe</h1>
+
+<form asp-action="New" method="post">
+  <div class="add_recipy">
+    <div class="left">
+      <div class="form-group">
+        <label asp-for="Title"></label>
+        <input asp-for="Title" class="form-control" />
+        <span asp-validation-for="Title" class="text-danger"></span>
+      </div>
+
+      <div class="form-group">
+        <label asp-for="Ingredient1"></label>
+        <input asp-for="Ingredient1" class="form-control" />
+        <span asp-validation-for="Ingredient1" class="text-danger"></span>
+      </div>
+
+      <div class="form-group">
+        <label asp-for="Ingredient2"></label>
+        <input asp-for="Ingredient2" class="form-control" />
+        <span asp-validation-for="Ingredient2" class="text-danger"></span>
+      </div>
+
+      <div class="form-group">
+        <label asp-for="Ingredient3"></label>
+        <input asp-for="Ingredient3" class="form-control" />
+        <span asp-validation-for="Ingredient3" class="text-danger"></span>
+      </div>
+
+      <div class="form-group">
+        <label asp-for="Ingredient4"></label>
+        <input asp-for="Ingredient4" class="form-control" />
+        <span asp-validation-for="Ingredient4" class="text-danger"></span>
+      </div>
+
+      <div class="form-group">
+        <label asp-for="Ingredient5"></label>
+        <input asp-for="Ingredient5" class="form-control" />
+        <span asp-validation-for="Ingredient5" class="text-danger"></span>
+      </div>
+    </div>
+    <div class="right">
+      <div class="form-group">
+        <label asp-for="Instructions"></label>
+        <textarea asp-for="Instructions" class="form-control"></textarea>
+        <span asp-validation-for="Instructions" class="text-danger"></span>
+      </div>
+      <div class="attributes flex mt-4">
+        <div class="form-group form-check">
+          <input type="checkbox" asp-for="Vegitarian" />
+          <label asp-for="Vegitarian"></label>
+        </div>
+
+        <div class="form-group form-check">
+          <input type="checkbox" asp-for="Gluten" />
+          <label asp-for="Gluten"></label>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary mt-4">Create</button>
+    </div>
+  </div>
+  
+</form>
