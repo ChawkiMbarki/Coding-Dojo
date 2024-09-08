@@ -1,0 +1,99 @@
+@model Belt_Exam.Models.FilterViewModel
+
+@{
+  ViewData["Status"] = "LoggedIn";
+  var recipies = Model.Recipies;
+  var isVegetarian = Model.IsVegetarian;
+  var isGlutenFree = Model.IsGlutenFree;
+}
+
+<form class="flex filter_form" method="get" asp-action="Index">
+  <div>
+    <input style="cursor: pointer;" id="isVegetarian" type="checkbox" name="isVegetarian" value="true" @(isVegetarian ? "checked" : "")
+      onchange="this.form.submit()" />
+    <label style="cursor: pointer;" for="isVegetarian">Vegetarian</label>
+  </div>
+  <div>
+    <input style="cursor: pointer;" id="isGlutenFree" type="checkbox" name="isGlutenFree" value="true" @(isGlutenFree ? "checked" : "")
+      onchange="this.form.submit()" />
+    <label style="cursor: pointer;" for="isGlutenFree">Gluten Free</label>
+  </div>
+</form>
+
+<div class="recipies flex">
+  <ul class="all_recipes flex column">
+    <h1 class="mb-5 text-center">All Recipes</h1>
+    @for (int i = 0; i < recipies.Count; i++)
+    {
+      Recipy recipy = recipies[i];
+      if (recipy != null)
+      {
+        <li>
+          <div class="header display-6 flex">
+            <a asp-action="Details" asp-route-id="@recipy.Id">@recipy.Title</a>
+            <p>By @recipy.Creator?.FirstName @recipy.Creator?.LastName[0]</p>
+            @if (recipy.CreatorId == ViewBag.UserId)
+            {
+              <p>
+                (
+                <a class="text-warning" style="font-style: italic;" asp-action="Edit" asp-route-id="@recipy.Id">Edit</a>
+                <span>|</span>
+              <form asp-action="Delete" asp-route-recipyId="@recipy.Id" method="post" style="display:inline;">
+                <button style="font-weight: bold; font-style: italic; border: none; background-color: transparent;"
+                  type="submit" class="nav-link text-danger">Delete</button>
+              </form>
+              )
+              </p>
+            }
+          </div>
+          <div class="details flex">
+            @if (recipy.Vegitarian && recipy.Gluten)
+            {
+              <span>Vegitarian, Gluten Free</span>
+            }
+            else if (recipy.Vegitarian)
+            {
+              <span>Vegitarian</span>
+            }
+            else if (recipy.Gluten)
+            {
+              <span>Gluten Free</span>
+            }
+            @{
+              if (recipy.Ratings.Any())
+              {
+                <p class="rating">@($"{recipy.Ratings.Average(r => r.Value):0.0} out of 5")</p>
+              }
+              else
+              {
+                <p class="rating">No ratings yet</p>
+              }
+            }
+          </div>
+        </li>
+      }
+    }
+  </ul>
+
+  <ul class="unrated_recipes flex column">
+    <h1 class="mb-5 text-center">Recipes You've Rated</h1>
+    @foreach (var recipy in recipies.Where(r => r.Ratings.Any(rt => rt.UserId == (int)ViewBag.UserId)))
+    {
+      var userRating = recipy.Ratings.FirstOrDefault(r => r.UserId == ViewBag.UserId)?.Value;
+      <li>
+        <p class="header">
+          <a asp-action="Details" asp-route-id="@recipy.Id">@recipy.Title</a>
+          <span>By @recipy.Creator?.FirstName @recipy.Creator?.LastName[0]</span>
+        </p>
+        <div class="details flex">
+          <p>You gave it a @($"{userRating ?? 0} out of 5")</p>
+
+          <form asp-action="UnRate" asp-route-recipyId="@recipy.Id" method="post" style="display:inline;">
+            <button type="submit" class="nav-link text-danger">Remove rating</button>
+          </form>
+
+        </div>
+      </li>
+    }
+  </ul>
+</div>

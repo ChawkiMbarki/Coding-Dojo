@@ -1,0 +1,139 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.flex {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.forms {
+  justify-content: space-between;
+  text-align: left;
+  gap: 25px;
+}
+
+.forms > form {
+  width: 50%;
+}
+
+.input {
+  gap: 25px;
+  justify-content: space-between;
+}
+
+input {
+  max-width: 350px;
+}
+
+h2 {
+  margin-bottom: 25px;
+}
+
+.logout {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.add_recipy {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left, .right {
+  width: 50%;
+}
+
+.recipies {
+  width: 100%;
+  justify-content: space-between;
+}
+
+.recipies > ul {
+  width: 50%;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.all_recipes {
+  border-right: 1px solid black;
+  gap: 25px;
+}
+.unrated_recipes {
+  border-left: 1px solid black;
+  gap: 25px;
+}
+
+.details {
+  gap: 20px;
+  font-size: 1.1em;
+}
+
+.Recipy_title {
+  align-items: center;
+  gap: 25px;
+}
+
+.details > .rating, .Recipy_title > .rating{
+  color: purple;
+  margin: 0;
+}
+
+.details > form > .nav-link{
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+.recipe-details > .left > * {
+  margin: 0;
+}
+
+.rating-section .btnt {
+  height: 10px;
+}
+
+.header {
+  gap: 15px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.header * {
+  margin: 0;
+  padding: 0;
+}
+
+.filter_form {
+  justify-content: center;
+  gap: 15px;
+}
+
+.attributes :first-child {
+  padding-left: 0;
+}

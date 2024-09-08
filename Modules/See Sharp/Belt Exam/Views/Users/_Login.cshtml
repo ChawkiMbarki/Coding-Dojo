@@ -1,0 +1,28 @@
+@model Belt_Exam.Models.Login
+
+
+
+<form asp-action="Login" method="post" class="needs-validation" novalidate>
+  <fieldset>
+    <legend>
+      <h2>Log in</h2>
+    </legend>
+    <div class="form-group mb-3">
+      <div class="input flex">
+        <label asp-for="LoginEmail" class="form-label">Email:</label>
+        <input asp-for="LoginEmail" class="form-control" required />
+      </div>
+      <span asp-validation-for="LoginEmail" class="text-danger"></span>
+    </div>
+
+    <div class="form-group mb-3">
+      <div class="input flex">
+        <label asp-for="LoginPassword" class="form-label">Password:</label>
+        <input asp-for="LoginPassword" type="password" class="form-control" required />
+      </div>
+      <span asp-validation-for="LoginPassword" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Login</button>
+  </fieldset>
+</form>
