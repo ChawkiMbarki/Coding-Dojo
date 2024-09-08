@@ -1,0 +1,31 @@
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\core\Dojo Survey With Validations\bin\Debug\net8.0\appsettings.Development.json
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\core\Dojo Survey With Validations\bin\Debug\net8.0\appsettings.json
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\core\Dojo Survey With Validations\bin\Debug\net8.0\Dojo Survey With Validations.staticwebassets.runtime.json
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\core\Dojo Survey With Validations\bin\Debug\net8.0\Dojo Survey With Validations.exe
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\core\Dojo Survey With Validations\bin\Debug\net8.0\Dojo Survey With Validations.deps.json
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\core\Dojo Survey With Validations\bin\Debug\net8.0\Dojo Survey With Validations.runtimeconfig.json
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\core\Dojo Survey With Validations\bin\Debug\net8.0\Dojo Survey With Validations.dll
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\core\Dojo Survey With Validations\bin\Debug\net8.0\Dojo Survey With Validations.pdb
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\core\Dojo Survey With Validations\obj\Debug\net8.0\Dojo Survey With Validations.GeneratedMSBuildEditorConfig.editorconfig
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\core\Dojo Survey With Validations\obj\Debug\net8.0\Dojo Survey With Validations.AssemblyInfoInputs.cache
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\core\Dojo Survey With Validations\obj\Debug\net8.0\Dojo Survey With Validations.AssemblyInfo.cs
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\core\Dojo Survey With Validations\obj\Debug\net8.0\Dojo Survey With Validations.csproj.CoreCompileInputs.cache
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\core\Dojo Survey With Validations\obj\Debug\net8.0\Dojo Survey With Validations.MvcApplicationPartsAssemblyInfo.cache
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\core\Dojo Survey With Validations\obj\Debug\net8.0\Dojo Survey With Validations.RazorAssemblyInfo.cache
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\core\Dojo Survey With Validations\obj\Debug\net8.0\Dojo Survey With Validations.RazorAssemblyInfo.cs
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\core\Dojo Survey With Validations\obj\Debug\net8.0\Dojo Survey With Validations.sourcelink.json
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\core\Dojo Survey With Validations\obj\Debug\net8.0\staticwebassets.build.json
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\core\Dojo Survey With Validations\obj\Debug\net8.0\staticwebassets.development.json
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\core\Dojo Survey With Validations\obj\Debug\net8.0\staticwebassets\msbuild.Dojo Survey With Validations.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\core\Dojo Survey With Validations\obj\Debug\net8.0\staticwebassets\msbuild.build.Dojo Survey With Validations.props
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\core\Dojo Survey With Validations\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Dojo Survey With Validations.props
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\core\Dojo Survey With Validations\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Dojo Survey With Validations.props
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\core\Dojo Survey With Validations\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\core\Dojo Survey With Validations\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\core\Dojo Survey With Validations\obj\Debug\net8.0\scopedcss\bundle\Dojo Survey With Validations.styles.css
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\core\Dojo Survey With Validations\obj\Debug\net8.0\scopedcss\projectbundle\Dojo Survey With Validations.bundle.scp.css
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\core\Dojo Survey With Validations\obj\Debug\net8.0\Dojo Survey With Validations.dll
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\core\Dojo Survey With Validations\obj\Debug\net8.0\refint\Dojo Survey With Validations.dll
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\core\Dojo Survey With Validations\obj\Debug\net8.0\Dojo Survey With Validations.pdb
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\core\Dojo Survey With Validations\obj\Debug\net8.0\Dojo Survey With Validations.genruntimeconfig.cache
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\ASP.NET CORE\core\Dojo Survey With Validations\obj\Debug\net8.0\ref\Dojo Survey With Validations.dll

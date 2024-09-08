@@ -1,0 +1,15 @@
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\Language Fundamentals\core\Game Developer 1\bin\Debug\net6.0\Game Developer 1.exe
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\Language Fundamentals\core\Game Developer 1\bin\Debug\net6.0\Game Developer 1.deps.json
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\Language Fundamentals\core\Game Developer 1\bin\Debug\net6.0\Game Developer 1.runtimeconfig.json
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\Language Fundamentals\core\Game Developer 1\bin\Debug\net6.0\Game Developer 1.dll
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\Language Fundamentals\core\Game Developer 1\bin\Debug\net6.0\Game Developer 1.pdb
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\Language Fundamentals\core\Game Developer 1\obj\Debug\net6.0\Game Developer 1.csproj.AssemblyReference.cache
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\Language Fundamentals\core\Game Developer 1\obj\Debug\net6.0\Game Developer 1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\Language Fundamentals\core\Game Developer 1\obj\Debug\net6.0\Game Developer 1.AssemblyInfoInputs.cache
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\Language Fundamentals\core\Game Developer 1\obj\Debug\net6.0\Game Developer 1.AssemblyInfo.cs
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\Language Fundamentals\core\Game Developer 1\obj\Debug\net6.0\Game Developer 1.csproj.CoreCompileInputs.cache
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\Language Fundamentals\core\Game Developer 1\obj\Debug\net6.0\Game Developer 1.dll
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\Language Fundamentals\core\Game Developer 1\obj\Debug\net6.0\refint\Game Developer 1.dll
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\Language Fundamentals\core\Game Developer 1\obj\Debug\net6.0\Game Developer 1.pdb
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\Language Fundamentals\core\Game Developer 1\obj\Debug\net6.0\Game Developer 1.genruntimeconfig.cache
+D:\Storage\6 . Development\Coding-Dojo\Modules\See Sharp\Language Fundamentals\core\Game Developer 1\obj\Debug\net6.0\ref\Game Developer 1.dll

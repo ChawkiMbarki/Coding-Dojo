@@ -1,0 +1,111 @@
+h1 {
+  text-align: center;
+  padding-bottom: 55px;
+}
+
+a {
+  color: red;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 1.3em;
+}
+
+.selected {
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+}
+
+a:hover {
+  color: rgb(68, 0, 255);
+}
+
+img{
+  width: 100%;
+  border-radius: 15px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 55px;
+}
+
+.main-content {
+  display: flex;
+}
+
+.main-content .left {
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.left img{
+  width: 70%;
+  border-radius: 15px;
+}
+
+.main-content .right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 50%;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.input {
+  display: flex;
+  justify-content: space-between;
+  width: 350px;
+}
+
+input, textarea {
+  width: 200px;
+}
+
+button {
+  margin-top: 15px;
+  width: 150px;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-height: 420px;
+  overflow: hidden;
+  overflow-y: scroll;
+  border: 3px solid rgba(112, 112, 112, 0.508);
+  padding: 15px;
+}
+
+.project {
+  display: flex;
+  gap: 50px;
+  width: 100%;
+}
+
+.img-container {
+  width: 100%;
+}
+
+.img-container img {
+  border: 1px solid black;
+}
+
+

@@ -1,0 +1,31 @@
+@model IEnumerable<Chefs_Dishes.Models.Dish>
+
+@{
+  ViewBag.Title = "Dishes";
+}
+
+<div class="container">
+  <h2>Dishes</h2>
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Chef</th>
+        <th>Tastiness</th>
+        <th>Calories</th>
+      </tr>
+    </thead>
+    <tbody>
+      @foreach (var dish in Model)
+      {
+        <tr>
+          <td>@dish.Name</td>
+          <td>@dish.Chef.FirstName @dish.Chef.LastName</td>
+          <td>@dish.Tastiness</td>
+          <td>@dish.Calories</td>
+        </tr>
+      }
+    </tbody>
+  </table>
+  <a  class="btn btn-primary" asp-area="" asp-controller="Dishes" asp-action="New">Add a Dish</a>
+</div>

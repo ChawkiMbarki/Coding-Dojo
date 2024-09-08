@@ -1,0 +1,40 @@
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Chefs Dishes\bin\Debug\net8.0\appsettings.Development.json
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Chefs Dishes\bin\Debug\net8.0\appsettings.json
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Chefs Dishes\bin\Debug\net8.0\Chefs Dishes.staticwebassets.runtime.json
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Chefs Dishes\bin\Debug\net8.0\Chefs Dishes.exe
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Chefs Dishes\bin\Debug\net8.0\Chefs Dishes.deps.json
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Chefs Dishes\bin\Debug\net8.0\Chefs Dishes.runtimeconfig.json
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Chefs Dishes\bin\Debug\net8.0\Chefs Dishes.dll
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Chefs Dishes\bin\Debug\net8.0\Chefs Dishes.pdb
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Chefs Dishes\bin\Debug\net8.0\Humanizer.dll
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Chefs Dishes\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Chefs Dishes\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Chefs Dishes\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Chefs Dishes\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Chefs Dishes\bin\Debug\net8.0\MySqlConnector.dll
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Chefs Dishes\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Chefs Dishes\obj\Debug\net8.0\Chefs Dishes.csproj.AssemblyReference.cache
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Chefs Dishes\obj\Debug\net8.0\Chefs Dishes.GeneratedMSBuildEditorConfig.editorconfig
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Chefs Dishes\obj\Debug\net8.0\Chefs Dishes.AssemblyInfoInputs.cache
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Chefs Dishes\obj\Debug\net8.0\Chefs Dishes.AssemblyInfo.cs
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Chefs Dishes\obj\Debug\net8.0\Chefs Dishes.csproj.CoreCompileInputs.cache
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Chefs Dishes\obj\Debug\net8.0\Chefs Dishes.MvcApplicationPartsAssemblyInfo.cache
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Chefs Dishes\obj\Debug\net8.0\Chefs Dishes.RazorAssemblyInfo.cache
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Chefs Dishes\obj\Debug\net8.0\Chefs Dishes.RazorAssemblyInfo.cs
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Chefs Dishes\obj\Debug\net8.0\Chefs Dishes.sourcelink.json
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Chefs Dishes\obj\Debug\net8.0\staticwebassets.build.json
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Chefs Dishes\obj\Debug\net8.0\staticwebassets.development.json
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Chefs Dishes\obj\Debug\net8.0\staticwebassets\msbuild.Chefs Dishes.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Chefs Dishes\obj\Debug\net8.0\staticwebassets\msbuild.build.Chefs Dishes.props
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Chefs Dishes\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Chefs Dishes.props
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Chefs Dishes\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Chefs Dishes.props
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Chefs Dishes\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Chefs Dishes\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Chefs Dishes\obj\Debug\net8.0\scopedcss\bundle\Chefs Dishes.styles.css
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Chefs Dishes\obj\Debug\net8.0\scopedcss\projectbundle\Chefs Dishes.bundle.scp.css
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Chefs Dishes\obj\Debug\net8.0\Chefs Di.2832F4F8.Up2Date
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Chefs Dishes\obj\Debug\net8.0\Chefs Dishes.dll
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Chefs Dishes\obj\Debug\net8.0\refint\Chefs Dishes.dll
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Chefs Dishes\obj\Debug\net8.0\Chefs Dishes.pdb
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Chefs Dishes\obj\Debug\net8.0\Chefs Dishes.genruntimeconfig.cache
+D:\Development\Coding-Dojo\Modules\See Sharp\ORMs\core\Chefs Dishes\obj\Debug\net8.0\ref\Chefs Dishes.dll

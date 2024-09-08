@@ -1,0 +1,24 @@
+@{
+    ViewData["Title"] = "Resluts";
+}
+
+@model Survey;
+
+<fieldset class="flex column field2">
+  <h2>Form Results</h2>
+  <div class="content-wrapper">
+    <div>
+      <h5>Name: </h5>@Model.Name
+    </div>
+    <div>
+      <h5>Location: </h5>@Model.Location
+    </div>
+    <div>
+      <h5>Language: </h5>@Model.Language
+    </div>
+    <div>
+      <h5>Comment: </h5>@Model.Comment
+    </div>
+  </div>
+  <a href="/" class="mt 5">Go Back</a>
+</fieldset>

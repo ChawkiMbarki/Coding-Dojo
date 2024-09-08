@@ -1,0 +1,40 @@
+D:\Development\Coding-Dojo\Modules\See Sharp\Belt Exam\obj\Debug\net8.0\Belt Exam.csproj.AssemblyReference.cache
+D:\Development\Coding-Dojo\Modules\See Sharp\Belt Exam\obj\Debug\net8.0\Belt Exam.GeneratedMSBuildEditorConfig.editorconfig
+D:\Development\Coding-Dojo\Modules\See Sharp\Belt Exam\obj\Debug\net8.0\Belt Exam.AssemblyInfoInputs.cache
+D:\Development\Coding-Dojo\Modules\See Sharp\Belt Exam\obj\Debug\net8.0\Belt Exam.AssemblyInfo.cs
+D:\Development\Coding-Dojo\Modules\See Sharp\Belt Exam\obj\Debug\net8.0\Belt Exam.csproj.CoreCompileInputs.cache
+D:\Development\Coding-Dojo\Modules\See Sharp\Belt Exam\obj\Debug\net8.0\Belt Exam.MvcApplicationPartsAssemblyInfo.cache
+D:\Development\Coding-Dojo\Modules\See Sharp\Belt Exam\obj\Debug\net8.0\Belt Exam.RazorAssemblyInfo.cache
+D:\Development\Coding-Dojo\Modules\See Sharp\Belt Exam\obj\Debug\net8.0\Belt Exam.RazorAssemblyInfo.cs
+D:\Development\Coding-Dojo\Modules\See Sharp\Belt Exam\obj\Debug\net8.0\Belt Exam.sourcelink.json
+D:\Development\Coding-Dojo\Modules\See Sharp\Belt Exam\bin\Debug\net8.0\appsettings.Development.json
+D:\Development\Coding-Dojo\Modules\See Sharp\Belt Exam\bin\Debug\net8.0\appsettings.json
+D:\Development\Coding-Dojo\Modules\See Sharp\Belt Exam\bin\Debug\net8.0\Belt Exam.staticwebassets.runtime.json
+D:\Development\Coding-Dojo\Modules\See Sharp\Belt Exam\bin\Debug\net8.0\Belt Exam.exe
+D:\Development\Coding-Dojo\Modules\See Sharp\Belt Exam\bin\Debug\net8.0\Belt Exam.deps.json
+D:\Development\Coding-Dojo\Modules\See Sharp\Belt Exam\bin\Debug\net8.0\Belt Exam.runtimeconfig.json
+D:\Development\Coding-Dojo\Modules\See Sharp\Belt Exam\bin\Debug\net8.0\Belt Exam.dll
+D:\Development\Coding-Dojo\Modules\See Sharp\Belt Exam\bin\Debug\net8.0\Belt Exam.pdb
+D:\Development\Coding-Dojo\Modules\See Sharp\Belt Exam\bin\Debug\net8.0\Humanizer.dll
+D:\Development\Coding-Dojo\Modules\See Sharp\Belt Exam\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Development\Coding-Dojo\Modules\See Sharp\Belt Exam\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Development\Coding-Dojo\Modules\See Sharp\Belt Exam\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Development\Coding-Dojo\Modules\See Sharp\Belt Exam\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Development\Coding-Dojo\Modules\See Sharp\Belt Exam\bin\Debug\net8.0\MySqlConnector.dll
+D:\Development\Coding-Dojo\Modules\See Sharp\Belt Exam\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
+D:\Development\Coding-Dojo\Modules\See Sharp\Belt Exam\obj\Debug\net8.0\staticwebassets.build.json
+D:\Development\Coding-Dojo\Modules\See Sharp\Belt Exam\obj\Debug\net8.0\staticwebassets.development.json
+D:\Development\Coding-Dojo\Modules\See Sharp\Belt Exam\obj\Debug\net8.0\staticwebassets\msbuild.Belt Exam.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Development\Coding-Dojo\Modules\See Sharp\Belt Exam\obj\Debug\net8.0\staticwebassets\msbuild.build.Belt Exam.props
+D:\Development\Coding-Dojo\Modules\See Sharp\Belt Exam\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Belt Exam.props
+D:\Development\Coding-Dojo\Modules\See Sharp\Belt Exam\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Belt Exam.props
+D:\Development\Coding-Dojo\Modules\See Sharp\Belt Exam\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Development\Coding-Dojo\Modules\See Sharp\Belt Exam\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Development\Coding-Dojo\Modules\See Sharp\Belt Exam\obj\Debug\net8.0\scopedcss\bundle\Belt Exam.styles.css
+D:\Development\Coding-Dojo\Modules\See Sharp\Belt Exam\obj\Debug\net8.0\scopedcss\projectbundle\Belt Exam.bundle.scp.css
+D:\Development\Coding-Dojo\Modules\See Sharp\Belt Exam\obj\Debug\net8.0\Belt Exam.csproj.Up2Date
+D:\Development\Coding-Dojo\Modules\See Sharp\Belt Exam\obj\Debug\net8.0\Belt Exam.dll
+D:\Development\Coding-Dojo\Modules\See Sharp\Belt Exam\obj\Debug\net8.0\refint\Belt Exam.dll
+D:\Development\Coding-Dojo\Modules\See Sharp\Belt Exam\obj\Debug\net8.0\Belt Exam.pdb
+D:\Development\Coding-Dojo\Modules\See Sharp\Belt Exam\obj\Debug\net8.0\Belt Exam.genruntimeconfig.cache
+D:\Development\Coding-Dojo\Modules\See Sharp\Belt Exam\obj\Debug\net8.0\ref\Belt Exam.dll

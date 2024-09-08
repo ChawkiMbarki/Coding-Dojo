@@ -1,0 +1,40 @@
+F:\Temp workstation\Coding Dojo\Coding-Dojo\Modules\See Sharp\ORMs\core\Login and Registration\bin\Debug\net8.0\appsettings.Development.json
+F:\Temp workstation\Coding Dojo\Coding-Dojo\Modules\See Sharp\ORMs\core\Login and Registration\bin\Debug\net8.0\appsettings.json
+F:\Temp workstation\Coding Dojo\Coding-Dojo\Modules\See Sharp\ORMs\core\Login and Registration\bin\Debug\net8.0\Login and Registration.staticwebassets.runtime.json
+F:\Temp workstation\Coding Dojo\Coding-Dojo\Modules\See Sharp\ORMs\core\Login and Registration\bin\Debug\net8.0\Login and Registration.exe
+F:\Temp workstation\Coding Dojo\Coding-Dojo\Modules\See Sharp\ORMs\core\Login and Registration\bin\Debug\net8.0\Login and Registration.deps.json
+F:\Temp workstation\Coding Dojo\Coding-Dojo\Modules\See Sharp\ORMs\core\Login and Registration\bin\Debug\net8.0\Login and Registration.runtimeconfig.json
+F:\Temp workstation\Coding Dojo\Coding-Dojo\Modules\See Sharp\ORMs\core\Login and Registration\bin\Debug\net8.0\Login and Registration.dll
+F:\Temp workstation\Coding Dojo\Coding-Dojo\Modules\See Sharp\ORMs\core\Login and Registration\bin\Debug\net8.0\Login and Registration.pdb
+F:\Temp workstation\Coding Dojo\Coding-Dojo\Modules\See Sharp\ORMs\core\Login and Registration\bin\Debug\net8.0\Humanizer.dll
+F:\Temp workstation\Coding Dojo\Coding-Dojo\Modules\See Sharp\ORMs\core\Login and Registration\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+F:\Temp workstation\Coding Dojo\Coding-Dojo\Modules\See Sharp\ORMs\core\Login and Registration\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\Temp workstation\Coding Dojo\Coding-Dojo\Modules\See Sharp\ORMs\core\Login and Registration\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+F:\Temp workstation\Coding Dojo\Coding-Dojo\Modules\See Sharp\ORMs\core\Login and Registration\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+F:\Temp workstation\Coding Dojo\Coding-Dojo\Modules\See Sharp\ORMs\core\Login and Registration\bin\Debug\net8.0\MySqlConnector.dll
+F:\Temp workstation\Coding Dojo\Coding-Dojo\Modules\See Sharp\ORMs\core\Login and Registration\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
+F:\Temp workstation\Coding Dojo\Coding-Dojo\Modules\See Sharp\ORMs\core\Login and Registration\obj\Debug\net8.0\Login and Registration.csproj.AssemblyReference.cache
+F:\Temp workstation\Coding Dojo\Coding-Dojo\Modules\See Sharp\ORMs\core\Login and Registration\obj\Debug\net8.0\Login and Registration.GeneratedMSBuildEditorConfig.editorconfig
+F:\Temp workstation\Coding Dojo\Coding-Dojo\Modules\See Sharp\ORMs\core\Login and Registration\obj\Debug\net8.0\Login and Registration.AssemblyInfoInputs.cache
+F:\Temp workstation\Coding Dojo\Coding-Dojo\Modules\See Sharp\ORMs\core\Login and Registration\obj\Debug\net8.0\Login and Registration.AssemblyInfo.cs
+F:\Temp workstation\Coding Dojo\Coding-Dojo\Modules\See Sharp\ORMs\core\Login and Registration\obj\Debug\net8.0\Login and Registration.csproj.CoreCompileInputs.cache
+F:\Temp workstation\Coding Dojo\Coding-Dojo\Modules\See Sharp\ORMs\core\Login and Registration\obj\Debug\net8.0\Login and Registration.MvcApplicationPartsAssemblyInfo.cache
+F:\Temp workstation\Coding Dojo\Coding-Dojo\Modules\See Sharp\ORMs\core\Login and Registration\obj\Debug\net8.0\Login and Registration.RazorAssemblyInfo.cache
+F:\Temp workstation\Coding Dojo\Coding-Dojo\Modules\See Sharp\ORMs\core\Login and Registration\obj\Debug\net8.0\Login and Registration.RazorAssemblyInfo.cs
+F:\Temp workstation\Coding Dojo\Coding-Dojo\Modules\See Sharp\ORMs\core\Login and Registration\obj\Debug\net8.0\Login and Registration.sourcelink.json
+F:\Temp workstation\Coding Dojo\Coding-Dojo\Modules\See Sharp\ORMs\core\Login and Registration\obj\Debug\net8.0\staticwebassets.build.json
+F:\Temp workstation\Coding Dojo\Coding-Dojo\Modules\See Sharp\ORMs\core\Login and Registration\obj\Debug\net8.0\staticwebassets.development.json
+F:\Temp workstation\Coding Dojo\Coding-Dojo\Modules\See Sharp\ORMs\core\Login and Registration\obj\Debug\net8.0\staticwebassets\msbuild.Login and Registration.Microsoft.AspNetCore.StaticWebAssets.props
+F:\Temp workstation\Coding Dojo\Coding-Dojo\Modules\See Sharp\ORMs\core\Login and Registration\obj\Debug\net8.0\staticwebassets\msbuild.build.Login and Registration.props
+F:\Temp workstation\Coding Dojo\Coding-Dojo\Modules\See Sharp\ORMs\core\Login and Registration\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Login and Registration.props
+F:\Temp workstation\Coding Dojo\Coding-Dojo\Modules\See Sharp\ORMs\core\Login and Registration\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Login and Registration.props
+F:\Temp workstation\Coding Dojo\Coding-Dojo\Modules\See Sharp\ORMs\core\Login and Registration\obj\Debug\net8.0\staticwebassets.pack.json
+F:\Temp workstation\Coding Dojo\Coding-Dojo\Modules\See Sharp\ORMs\core\Login and Registration\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+F:\Temp workstation\Coding Dojo\Coding-Dojo\Modules\See Sharp\ORMs\core\Login and Registration\obj\Debug\net8.0\scopedcss\bundle\Login and Registration.styles.css
+F:\Temp workstation\Coding Dojo\Coding-Dojo\Modules\See Sharp\ORMs\core\Login and Registration\obj\Debug\net8.0\scopedcss\projectbundle\Login and Registration.bundle.scp.css
+F:\Temp workstation\Coding Dojo\Coding-Dojo\Modules\See Sharp\ORMs\core\Login and Registration\obj\Debug\net8.0\Login an.61EC6697.Up2Date
+F:\Temp workstation\Coding Dojo\Coding-Dojo\Modules\See Sharp\ORMs\core\Login and Registration\obj\Debug\net8.0\Login and Registration.dll
+F:\Temp workstation\Coding Dojo\Coding-Dojo\Modules\See Sharp\ORMs\core\Login and Registration\obj\Debug\net8.0\refint\Login and Registration.dll
+F:\Temp workstation\Coding Dojo\Coding-Dojo\Modules\See Sharp\ORMs\core\Login and Registration\obj\Debug\net8.0\Login and Registration.pdb
+F:\Temp workstation\Coding Dojo\Coding-Dojo\Modules\See Sharp\ORMs\core\Login and Registration\obj\Debug\net8.0\Login and Registration.genruntimeconfig.cache
+F:\Temp workstation\Coding Dojo\Coding-Dojo\Modules\See Sharp\ORMs\core\Login and Registration\obj\Debug\net8.0\ref\Login and Registration.dll
