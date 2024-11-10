@@ -1,0 +1,486 @@
+§!!!!!! THIS IS UST ONCE IN A LIFE TIME !!!!!!!§
+dotnet tool install --global dotnet-ef
+
+-------------------------------------------------------------------------------------
+
+dotnet new mvc --no-https
+setx ASPNETCORE_ENVIRONMENT Development
+dotnet add package Pomelo.EntityFrameworkCore.MySql --version 6.0.1
+dotnet add package Microsoft.EntityFrameworkCore.Design --version 6.0.3
+
+Model EXAMPLE:
+
+#pragma warning disable CS8618
+using System.ComponentModel.DataAnnotations;
+// Add this using statement to access NotMapped
+using System.ComponentModel.DataAnnotations.Schema;
+namespace !YourProjectName!.models;
+public class User
+{        
+    [Key]        
+    public int UserId { get; set; }
+    
+    [Required]        
+    public string FirstName { get; set; }
+    
+    [Required]        
+    public string LastName { get; set; }         
+    
+    [Required]
+    [EmailAddress]
+    [UniqueEmail]
+    public string Email { get; set; }      
+    
+    [Required]
+    [DataType(DataType.Password)]
+    [MinLength(8, ErrorMessage = "Password must be at least 8 characters")]
+    public string Password { get; set; }          
+    
+    public DateTime CreatedAt {get;set;} = DateTime.Now;        
+    public DateTime UpdatedAt {get;set;} = DateTime.Now;
+    
+    // This does not need to be moved to the bottom
+    // But it helps make it clear what is being mapped and what is not
+    [NotMapped]
+    // There is also a built-in attribute for comparing two fields we can use!
+    [Compare("Password")]
+    public string PasswordConfirm { get; set; }
+}
+public class UniqueEmailAttribute : ValidationAttribute
+{
+    protected override ValidationResult? IsValid(object? value, ValidationContext validationContext)
+    {
+    	// Though we have Required as a validation, sometimes we make it here anyways
+    	// In which case we must first verify the value is not null before we proceed
+        if(value == null)
+        {
+    	    // If it was, return the required error
+            return new ValidationResult("Email is required!");
+        }
+    
+    	// This will connect us to our database since we are not in our Controller
+        MyContext _context = (MyContext)validationContext.GetService(typeof(MyContext));
+        // Check to see if there are any records of this email in our database
+    	if(_context.Users.Any(e => e.Email == value.ToString()))
+        {
+    	    // If yes, throw an error
+            return new ValidationResult("Email must be unique!");
+        } else {
+    	    // If no, proceed
+            return ValidationResult.Success;
+        }
+    }
+}
+
+
+
+                
+
+MyContext.cs
+
+#pragma warning disable CS8618
+// We can disable our warnings safely because we know the framework will assign non-null values 
+// when it constructs this class for us.
+using Microsoft.EntityFrameworkCore;
+namespace !YourProjectName!.Models;
+// the MyContext class represents a session with our MySQL database, allowing us to query for or save data
+// DbContext is a class that comes from EntityFramework, we want to inherit its features
+public class MyContext : DbContext 
+{   
+    // This line will always be here. It is what constructs our context upon initialization  
+    public MyContext(DbContextOptions options) : base(options) { }    
+    // We need to create a new DbSet<Model> for every model in our project that is making a table
+    // The name of our table in our database will be based on the name we provide here
+    // This is where we provide a plural version of our model to fit table naming standards    
+    public DbSet<!Monster!> !Monsters! { get; set; } 
+}
+
+
+
+
+appsettings.json:
+§§§§§§§§§§§§§§§§§§§§§§§§§§ CHANGE THE DB NAME  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+§§§§§§§§§§§§§§§§§§§§§§§§§§ CHANGE THE DB NAME  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+§§§§§§§§§§§§§§§§§§§§§§§§§§ CHANGE THE DB NAME  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+{  
+    "Logging": {    
+        "LogLevel": {      
+            "Default": "Information",      
+            "Microsoft.AspNetCore": "Warning"    
+        }  
+    },
+    "AllowedHosts": "*",    
+    "ConnectionStrings":    
+    {        
+	§§§§§§§§§§§§§§§§§§§§§§§§§§ CHANGE THE DB NAME  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        "DefaultConnection": "Server=localhost;port=3306;userid=root;password=root;database=!DBNAME!;"!   §§§§§§§§§§§§§§§§§§§§§§§§§§ CHANGE THE DB NAME  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    }
+}
+
+
+
+Program.cs:
+
+using Microsoft.EntityFrameworkCore;
+using Login_and_Registration.Models;
+
+
+var builder = WebApplication.CreateBuilder(args);
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+
+builder.Services.AddControllersWithViews();
+builder.Services.AddDbContext<MyContext>(options =>
+{
+    options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
+});
+builder.Services.AddHttpContextAccessor();  
+builder.Services.AddSession();  
+
+
+var app = builder.Build();
+
+if (!app.Environment.IsDevelopment())
+{
+    app.UseExceptionHandler("/Home/Error");
+}
+app.UseStaticFiles();
+
+app.UseRouting();
+
+app.UseAuthorization();
+
+app.UseSession(); 
+
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=Home}/{action=Index}/{id?}");
+
+app.Run();
+
+
+
+
+CONTROLLER CONNECTION:
+HomeController.cs:
+
+// Using statements
+using System.Diagnostics;
+using Microsoft.AspNetCore.Mvc;
+using YourProjectName.Models;
+namespace YourProjectName.Controllers;    
+public class HomeController : Controller
+{    
+    private readonly ILogger<HomeController> _logger;
+    // Add a private variable of type MyContext (or whatever you named your context file)
+    private MyContext _context;         
+    // Here we can "inject" our context service into the constructor 
+    // The "logger" was something that was already in our code, we're just adding around it   
+    public HomeController(ILogger<HomeController> logger, MyContext context)    
+    {        
+        _logger = logger;
+        // When our HomeController is instantiated, it will fill in _context with context
+        // Remember that when context is initialized, it brings in everything we need from DbContext
+        // which comes from Entity Framework Core
+        _context = context;    
+    }         
+    [HttpGet("")]    
+    public IActionResult Index()    
+    {     
+        // Now any time we want to access our database we use _context   
+        List<Monster> AllMonsters = _context.Monsters.ToList();
+        return View();    
+    } 
+}
+
+
+Adding Migrations:
+
+1- dotnet ef migrations add FirstMigration
+	Note: FirstMigration is an example name. This can be anything. However, after you use this name, you cannot use it again when making migrations for the same project. A good 	rule of thumb is to call your first migration FirstMigration, then if you need to make a second migration for some reason call it SecondMigration. If you need to make a third, 	call it ThirdMigration, and so on and so forth...
+
+2- dotnet ef database update
+
+troubleshooting:
+dotnet ef migrations add FirstMigration -v
+
+
+
+
+
+
+
+--------------- DATABASE DATA CRUD -----------------------
+
+
+
+
+________________________Create/Add Daata:
+
+
+// Inside Controller
+[HttpPost("monsters/create")]
+public IActionResult CreateMonster(Monster newMon)
+{    
+    if(ModelState.IsValid)
+    {
+        // We can take the Monster object created from a form submission
+        // and pass the object through the .Add() method  
+        // Remember that _context is our database  
+        _context.Add(newMon);    
+        // OR _context.Monsters.Add(newMon); if we want to specify the table
+        // EF Core will be able to figure out which table you meant based on the model  
+        // VERY IMPORTANT: save your changes at the end! 
+        _context.SaveChanges();
+        return RedirectToAction("SomeAction");
+    } else {
+        // Handle unsuccessful validations
+    }
+}
+
+
+
+
+________________________READ Daata:
+
+
+[HttpGet("")]    
+public IActionResult Index()    
+{        
+    // Get all Monsters
+    ViewBag.AllMonsters = _context.Monsters.ToList();             
+    
+    // Get Monsters with the Name "Mike"
+    ViewBag.AllMikes = _context.Monsters.Where(n => n.Name == "Mike");     	
+    
+    // Get the 5 most recently added Monsters        
+    ViewBag.MostRecent = _context.Monsters.OrderByDescending(u => u.CreatedAt).Take(5).ToList(); 	
+    
+    // Get one Monster who has a certain description
+    ViewBag.MatchedDesc = _context.Monsters.FirstOrDefault(u => u.Description == "Super scary");
+    return View();  
+}
+
+
+
+
+________________________Update Daata:
+
+
+(1)Find the item you want to update:
+HomeController.cs:
+
+[HttpGet("monsters/{MonsterId}/edit")]
+public IActionResult EditMonster(int MonsterId)
+{
+    Monster? MonsterToEdit = _context.Monsters.FirstOrDefault(i => i.MonsterId == MonsterId);
+    // Tip: it would be good to add a check here to ensure what you are grabbing will not return a null item
+    return View(MonsterToEdit);
+
+}
+(2)Form:
+MonsterToEdit.cshtml
+
+<form asp-action="UpdateMonster" asp-controller="Home" asp-route-MonsterId="@Model.MonsterId" method="post">
+@* the rest of our form *@
+
+*** PAYYY ATTENTION TO THE "asp-route-MonsterId" the MonsterId part can be anything you want like"asp-route-Zsqdf"
+
+
+(3)Post request / save data to the database:
+HomeController.cs:
+
+// 1. Trigger a post request that contains the updated instance from our form and the ID of that instance
+[HttpPost("monsters/{MonsterId}/update")]
+public IActionResult UpdateMonster(Monster newMon, int MonsterId)
+{
+    // 2. Find the old version of the instance in your database
+    Monster? OldMonster = _context.Monsters.FirstOrDefault(i => i.MonsterId == MonsterId);
+    // 3. Verify that the new instance passes validations
+    if(ModelState.IsValid)
+    {
+        // 4. Overwrite the old version with the new version
+    	// Yes, this has to be done one attribute at a time
+    	OldMonster.Name = newMon.Name;
+        OldMonster.Height = newMon.Height;
+        OldMonster.Description = newMon.Description;
+    	// You updated it, so update the UpdatedAt field!
+        OldMonster.UpdatedAt = DateTime.Now;
+    	// 5. Save your changes
+        _context.SaveChanges();
+    	// 6. Redirect to an appropriate page
+        return RedirectToAction("Index");
+    } else {
+    	// 3.5. If it does not pass validations, show error messages
+    	// Be sure to pass the form back in so you don't lose your changes
+        // It should be the old version so we can keep the ID
+        return View("EditMonster", OldMonster);
+    }
+}
+
+
+
+
+________________________Delete/Remove Daata:
+
+
+(1) ALWAYS use a post request to delete data
+<form asp-action="DestroyMonster" asp-controller="Home" asp-route-MonsterId="@Model.MonsterId" method="post">
+    <input type="submit" value="Delete">
+</form>
+
+(2)Always use try to find the the elemnt you want to delete using SingleOrDefault before actually deleting it to make sure you are deleting a single item and it exists in the DB
+
+HomeController.cs:
+[HttpPost("monsters/{MonsterId}/destroy")]
+public IActionResult DestroyMonster(int MonsterId)
+{
+    Monster? MonToDelete = _context.Monsters.SingleOrDefault(i => i.MonsterId == MonsterId);
+    // Once again, it could be a good idea to verify the monster exists before deleting
+    _context.Monsters.Remove(MonToDelete);
+    _context.SaveChanges();
+    return RedirectToAction("Index");
+}
+
+
+
+
+--------------- Partials -----------------------
+
+
+
+
+(1) Getting Started: 
+	// other imports
+	@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+(2)_Navbar.cshtml:
+	<ul>        
+    		<li><a href="/">Home</a></li>        
+    		<li><a href="/about">About Me</a></li>    
+	</ul>
+(3)Index.cshtml:
+	@await Html.PartialAsync("_Navbar")
+	<h1>Welcome to this site!</h1>
+	<p>The rest of your View content here...</p>
+
+
+
+
+--------------- Password Hashing -----------------------
+
+
+
+
+(1) Signing up Controller:
+
+// Add this using statement to be able to use PasswordHasher
+using Microsoft.AspNetCore.Identity;
+// Other using statements
+namespace YourNamespace.Controllers;    
+public class YourController : Controller
+{    
+    [HttpPost("users/create")]   
+    public IActionResult Method(User newUser)    
+    {        
+        if(ModelState.IsValid)        
+        {
+            // Initializing a PasswordHasher object, providing our User class as its type            
+            PasswordHasher<User> Hasher = new PasswordHasher<User>();   
+            // Updating our newUser's password to a hashed version         
+            newUser.Password = Hasher.HashPassword(newUser, newUser.Password);            
+            //Save your user object to the database 
+            _context.Add(newUser);
+            _context.SaveChanges();       
+        } else {
+            // handle else
+        }   
+    }
+}
+
+(2) Create a login model just for loging in
+
+LoginUser.cs:
+
+#pragma warning disable CS8618
+using System.ComponentModel.DataAnnotations;
+
+namespace Login_and_Registration.Models;
+public class LoginUser
+{
+    [Required]    
+    public string Email { get; set; }    
+    [Required]    
+    public string Password { get; set; } 
+}
+
+(3) Loging controller:
+
+public IActionResult Login(LoginUser userSubmission)
+{    
+    if(ModelState.IsValid)    
+    {        
+        // If initial ModelState is valid, query for a user with the provided email        
+        User? userInDb = _context.Users.FirstOrDefault(u => u.Email == userSubmission.Email);        
+        // If no user exists with the provided email        
+        if(userInDb == null)        
+        {            
+            // Add an error to ModelState and return to View!            
+            ModelState.AddModelError("Email", "Invalid Email/Password");            
+            return View("SomeView");        
+        }   
+        // Otherwise, we have a user, now we need to check their password                 
+        // Initialize hasher object        
+        PasswordHasher<LoginUser> hasher = new PasswordHasher<LoginUser>();                    
+        // Verify provided password against hash stored in db        
+        var result = hasher.VerifyHashedPassword(userSubmission, userInDb.Password, userSubmission.Password);                                    // Result can be compared to 0 for failure        
+        if(result == 0)        
+        {            
+            // Handle failure (this should be similar to how "existing email" is handled)        
+        } 
+        // Handle success (this should route to an internal page)  
+    } else {
+        // Handle else
+    }
+}
+
+
+
+
+--------------- Session Security -----------------------
+
+
+
+
+(1): 
+// Surrounding registration code
+HttpContext.Session.SetInt32("UserId", newUser.UserId);
+return RedirectToAction("SomeAction");
+// Surrounding registration code
+(2)
+Controller file:
+using Microsoft.AspNetCore.Mvc.Filters;
+(3)
+Controller file:
+// Name this anything you want with the word "Attribute" at the end
+public class SessionCheckAttribute : ActionFilterAttribute
+{
+    public override void OnActionExecuting(ActionExecutingContext context)
+    {
+        // Find the session, but remember it may be null so we need int?
+        int? userId = context.HttpContext.Session.GetInt32("UserId");
+        // Check to see if we got back null
+        if(userId == null)
+        {
+            // Redirect to the Index page if there was nothing in session
+            // "Home" here is referring to "HomeController", you can use any controller that is appropriate here
+            context.Result = new RedirectToActionResult("Index", "Home", null);
+        }
+    }
+}
+(4)
+Finally, on any route where we want to verify that our user is logged in, we can include the following code:
+
+// The name we gave our class minus "Attribute"
+[SessionCheck]
+[HttpGet("someRoute")]
+// The rest of the code
