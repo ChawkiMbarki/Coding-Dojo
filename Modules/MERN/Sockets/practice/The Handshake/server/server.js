@@ -1,22 +1,31 @@
 const express = require("express");
-const app = express();
 const cors = require("cors");
 const { Server } = require("socket.io");
 
+let messages = [];
+
+const app = express();
 app.use(cors());
 
-const server = app.listen(8000, () =>
-  console.log("The server is all fired up on port 8000")
+const PORT = 8000;
+const server = app.listen(PORT, () => 
+  console.log(`The server is all fired up on port ${PORT}`)
 );
 
 const io = new Server(server, {
   cors: {
     origin: "http://localhost:3000",
-    methods: ["GET", "POST"]
-  }
+    methods: ["GET", "POST"],
+  },
 });
 
 io.on("connection", (socket) => {
-  console.log("Nice to meet you. (shake hand)");
-  socket.emit("welcome", "Welcome to the chat!");
+  console.log(`User connected: ${socket.id}`);
+  io.emit("receive_message", { messages });
+  
+  socket.on("send_message", (data) => {
+    messages = [...messages, { message: data.message, userId: data.userId }];
+    console.log("messages: ",messages)
+    io.emit("receive_message", { messages });
+  });
 });
