@@ -1,0 +1,2 @@
+<h1>Assignment1 (PRACTICE): <a href ="https://login.codingdojo.africa/m/674/15388/112266">The Handshake</a></h1>
+<h1>Assignment2 (PRACTICE): <a href ="https://login.codingdojo.africa/m/674/15388/112267">Classic Chat App</a></h1>
